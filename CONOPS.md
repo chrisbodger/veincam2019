@@ -73,11 +73,11 @@ The project team consists of six undergraduate engineers who each have roles as 
 | Name | Role | Email |
 | --- | --- | --- |
 | Christopher Bodger | Procurement and Research | u5395595@anu.edu.au |
-| Alexander Ollman | Secretary | u5826805@anu.edu.au |
-| Alexander Binos |  | u5799782@anu.edu.au |
+| Alexander Ollman | Stakeholder Liaison | u5826805@anu.edu.au |
+| Alexander Binos | Software Engineer | u5799782@anu.edu.au |
 | Patrick Wilton | Software Engineer | u6050506@anu.edu.au |
 | Josh Johnson | Hardware Engineer | u6044123@anu.edu.au |
-| Tomas Johnson |  | u6080168@anu.edu.au |
+| Tomas Johnson | Secretary | u6080168@anu.edu.au |
 
 #### Responsibilities of the project team to the project
 * Fulfil the tasks assigned by the team within the desired time frame to the best of their ability.
