@@ -36,31 +36,33 @@
   *
   
 ## Project Discussion
-## Last year:
-* Too slow.
+### Last year shortcomings
+* System too slow.
 * Form factor too large.
 * Enclosure took too long to 3D print. Heavier, larger and more expensive than desired.
 * Didn’t have a printed circuit board (now do).
 
-## Moving forward:
-* Shrink enclosure down to be tight fitting (reasonable size).
-* Move towards a kit set where someone can bring their own raspberry Pi, Pi0 or Pi+, battery, SD card etc. and assemble themselves. Will we opt to go down the kit set path?
-* Improve software to make it faster.
-* Currently sets up own hotspot or connect to your router. Raspberry pi is all python based. It will secondly initiate flask action and load cv module. Cut down wifi connect time. Is open cv necessary in terms of enhancing the image produced?
-* Have options of lithium cells, own portable battery (incorporate or external battery).
+### Considerations moving forward
+* Shrink enclosure down to be tight fitting (reasonable handle size).
+* Move towards a kit set where someone can bring their own Raspberry Pi, battery, SD card etc. and assemble themselves. Will we opt to go down the kit set path?
+* Improve speed of software.
+* Currently the system sets up its own hotspot or alternatively connects to a router. (Raspberry pi is all python based) It will secondly initiated micro web framework Flask (written in Python) and loads Open Source Computer Vision library (CV module). Time taken for wifi connection should be aimed to be reduced. Additionally, is OpenCV necessary in terms of enhancing the image produced?
+* Have options of incorporated or external battery; lithium cells, own portable battery etc..
 
-## Goal for project by end of semester:
+### Goal for Project by end of semester:
+* As a minimum, present a physical object.
 * Get down to a kit form.
-* At least present a physical object.
 * Have a bill of materials.
-* Hardware improvement: See if there’s a better platform than raspberry pi. Should we stick with 0 or go back.
-* Software improvement: See if theres a better language – maybe C or C++. Computational saving. Only a small component of OpenCV is required – find a way to not have to load the entire library.
-*Currently approximately 1.5 minutes for start-up -Set wifi, Flask server, Open cv, Intiating leds. Reduced said start-up time.
+* Hardware improvement: See if there’s a better platform than Raspberry Pi.
+* Software improvement: See if theres a better language (maybe C or C++). Computational saving; only a small component of OpenCV is required (ind a way to not have to load the entire library).
+* Currently approximately 1.5 minutes for start-up. This includes setting up wifi, Flask server, OpenCV, Intiating LEDs. Aim to reduce said start-up time.
 
-## Decisions to be made
+### Decisions to be made
 * Hardware
-  * ....
+  * Optimise platform selection. Identify better platforms beyond Rasberry Pi.
+  * Incorporated or external battery.
 * Software
-  * ....
+  * Optimise language selection. Identify better languages including, but not limited to, C or C++. Language must be computationally saving.
+  * Requirement or lack thereof of comprehensive OpenCV incorporation.
 
 
