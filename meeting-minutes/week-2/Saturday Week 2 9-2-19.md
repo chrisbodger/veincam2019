@@ -57,12 +57,10 @@
 * Software improvement: See if theres a better language – maybe C or C++. Computational saving. Only a small component of OpenCV is required – find a way to not have to load the entire library.
 *Currently approximately 1.5 minutes for start-up -Set wifi, Flask server, Open cv, Intiating leds. Reduced said start-up time.
 
-
-
-## Re-write
-* main points
-* decisions made by participants
-* actions or tasks
-* future decisions
+## Decisions to be made
+* Hardware
+  * ....
+* Software
+  * ....
 
 
