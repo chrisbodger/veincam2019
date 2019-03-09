@@ -59,3 +59,10 @@
 
 
 
+## Re-write
+* main points
+* decisions made by participants
+* actions or tasks
+* future decisions
+
+
