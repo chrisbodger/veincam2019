@@ -1,4 +1,4 @@
-practitioner# Concept of Operations
+# Concept of Operations
 
 ## Version History
 | Version | Description |
@@ -33,7 +33,7 @@ practitioner# Concept of Operations
 ---
 
 ## Project Vision
-The VeinCam is a device that enables the visualisation of the superficial vein system, its purpose is to a tool to be utilised in the education of the human body and its functions. The device is based on the [Venenfinder project](https://hackaday.io/project/26158-assistance-system-for-vein-detection) submitted during the 2017 HackADay event, and a prototype was developed in 2018 to extend the Venenfinder to become smaller, portable, and simple to build by young students and inquisitive minds while being affordable
+VeinCam is a device that enables the visualisation of the superficial vein system, and its purpose is to a tool to be utilised in the education of the human body and its functions. The device is based on the [Venenfinder project](https://hackaday.io/project/26158-assistance-system-for-vein-detection) submitted during the 2017 Hackaday event, and a prototype was developed in 2018 to extend the Venenfinder to become smaller, portable, and simple to build by young students and inquisitive minds while being affordable
 
 This Semester, the vision is to produce a marketable kit that remains affordable and convenient to sell to educators for construction and development within a class environment.  
 
@@ -68,16 +68,16 @@ The following groups have been identified as stakeholders for this project:
 | Course Convenor | Provides feedback on project progress |
 
 ### Project Team
-The project team consists of four undergraduate engineers who each have roles as point people in the project. All members of the team should be present to support each other in whatever way is necessary to complete tasks and better the project. The designated roles give each member a lead position, they are responsible for their sections and as such if any questions from external stakeholders specifically address a section of the project they are the member to contact.
+The project team consists of six undergraduate engineers who each have roles as point people in the project. All members of the team should be present to support each other in whatever way is necessary to complete tasks and better the project. The designated roles give each member a lead position, they are responsible for their sections and as such if any questions from external stakeholders specifically address a section of the project they are the member to contact.
 
 | Name | Role | Email |
 | --- | --- | --- |
 | Christopher Bodger | Procurement and Research | u5395595@anu.edu.au |
-| Alexander Ollman | Secretary | u5826805@anu.edu.au |
-| Alexander Binos |  | u5799782@anu.edu.au |
+| Alexander Ollman | Stakeholder Liaison | u5826805@anu.edu.au |
+| Alexander Binos | Software Engineer | u5799782@anu.edu.au |
 | Patrick Wilton | Software Engineer | u6050506@anu.edu.au |
-| Joshua Johnson | Hardware Engineer | u6044123@anu.edu.au |
-| Tomas Johnson |  | u6080168@anu.edu.au |
+| Josh Johnson | Hardware Engineer | u6044123@anu.edu.au |
+| Tomas Johnson | Secretary | u6080168@anu.edu.au |
 
 #### Responsibilities of the project team to the project
 * Fulfil the tasks assigned by the team within the desired time frame to the best of their ability.
@@ -87,7 +87,7 @@ The project team consists of four undergraduate engineers who each have roles as
 ##### Responsibilities of the Hardware Engineer
 * Manage and design the hardware of the device.
 * Design and test the layout and chassis of the device.
-* Manufacture the prototype device.
+* Manufacture of the prototype device.
 
 ##### Responsibilities of the Software Engineer
 * Design the code for the device to meet deliverables and requirements.
@@ -110,7 +110,7 @@ The project team consists of four undergraduate engineers who each have roles as
 ### Project Client
 Ben Healey (message2ben@gmail.com)
 
-Ben is medical practitioner and an employee of ACT Health. He personally began this project using pointers from open source projects such as the 2017 HackADay project and the Venenfinder project, to develop an affordable vein imaging device.
+Ben is medical practitioner and an employee of ACT Health. He personally began this project using pointers from open source projects such as the 2017 Hackaday project and the Venenfinder project, to develop an affordable vein imaging device.
 
 Due to Ben's increasing work commitments by ACT Health, both Chris Bodger and Alex Ollman will act as "Client by Proxy", due to their history with the project, and previous understanding of the project's desired direction.
 
@@ -339,7 +339,7 @@ In developing the prototype there is a chance of injury, similar to above these 
 ## References
 [Venenfinder Github](https://github.com/Myrijam/Venenfinder)
 
-[Venenfinder HackAThon Page](https://hackaday.io/project/26158-assistance-system-for-vein-detection)
+[Venenfinder Hackaday.io Page](https://hackaday.io/project/26158-assistance-system-for-vein-detection)
 
 ---
 
