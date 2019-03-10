@@ -1,8 +1,8 @@
 # Requirements - Version 1 (10/03/2019)
 
-| Author        | Date Created           | Completion Status  |
-| :-------------: |:-------------:| :-----:|
-| Tomas Johnson      | 10/03/2019 | To be reviewed |
+| Author        | Date Created           | Version |Completion Status  |
+| :-------------: |:-------------:| :-----:| :----:|
+| Tomas Johnson      | 10/03/2019 | 1 |To be reviewed |
 
 
 Below is the **first** revised version of last year's design requirements (*not final*).
