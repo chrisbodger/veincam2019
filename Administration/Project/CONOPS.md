@@ -234,21 +234,12 @@ The initial deliverables are as follows:
 
 #### Baseline Deliverables
 * Determine the suitability of the current hardware and if it should be replaced with a more appropriate platform.
-* Optimise the software for the desired hardware to run more efficiently, as outlined in the [Requirements](NEED LINK HERE) document.
+* Optimise the software for the desired hardware to run more efficiently, as outlined in the [Requirements](Administration/Project/Requirements.md) document.
 * Compile a list of procurement options and outline sources for the client to then purchase and build the kit for distribution.
 
 **DECIDE OF STRETCH GOALS**
 #### Stretch Deliverables
-In order of priority.
-* Implement manual controls for image adjustment.
-* Compile user feedback on the construction and use of the device (based on the written guides).
-* Optimise for different use-case scenarios (e.g. tattooed skin, dark skin).
-* Design or source an appropriate hands free stand to mount the device.
-* Optimise device to visualise blood flow to identify best candidate vein
 
-#### Ultra-Stretch Deliverables or Future Project Aims
-* Configure device to run off of Pi Zero module
-  * Offload image processing to secondary device
 
 ### Milestones
 Further detail on the optimisation of milestones and design aims of the prototype are detailed in the Requirements document.
@@ -308,7 +299,7 @@ An [indicative schedule](https://docs.google.com/spreadsheets/d/1nfNqFCF2ieP5CyV
    4.5. Organise repository
 
 ### Decision Making and Conflict Resolution
-Decision making will be by consensus in consultation with the client. When consensus cannot be reached the project team will seek advice from other stakeholders depending on the nature of the decision. For further detail please refer to the [Decision Log](/docs/Decision-Log.md).
+Decision making will be by consensus in consultation with the client. When consensus cannot be reached the project team will seek advice from other stakeholders depending on the nature of the decision. For further detail please refer to the [Decision Log](Administration/Project/Decision-Log.md).
 
 ---
 
@@ -324,7 +315,7 @@ Potential risks to the success of the project have been brainstormed in order to
 | :---: | :---: | :---: | :---: | :---: |
 | Not clearly understanding or defining client's requirements for the project. | Product does not meet client requirements, client dissatisfied, requires re-doing work, going over budget and schedule to redesign | D | 3 | Maintain regular contact with client regarding progress and milestone completion. |
 | Not defining scope of project and setting clear and achievable milestones. | No clear definition of project progress, feature creep over time results in lack of physical product, no clear "stopping point" for project or completed product, client dissatisifed, product does not meet customer requirements, likely to be over-budget. | C | 3 | Defining scope early and ensuring we stick to milestones and their respective outputs to ensure we do not deviate on a project tangent. |
-| Device cannot be utilized as a medical device due to not meeting medical certification criteria. | Unable to deliver product to medical professionals, which is client's ultimate goal for the project. | C | 2 | Ensure client is aware of potential certification issues, and that they verify during development whether the device can be used with and/or without the medical classification. |
+
 
 ### Safety Risk Analysis
 In developing the prototype there is a chance of injury, similar to above these risks have been listed and steps taken to mitigate their severity or likelihood.
@@ -340,6 +331,8 @@ In developing the prototype there is a chance of injury, similar to above these 
 [Venenfinder Github](https://github.com/Myrijam/Venenfinder)
 
 [Venenfinder Hackaday.io Page](https://hackaday.io/project/26158-assistance-system-for-vein-detection)
+
+[Veincam Stage 1](https://github.com/chrisbodger/veincam)
 
 ---
 
