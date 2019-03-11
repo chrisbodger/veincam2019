@@ -13,31 +13,14 @@
 2. Project Discussion
 ---
 
+# 1. Meet and Greet With Ben
 
 
 ---
 
-## Actionables
-* Chris to:
-  * Finalise ConOps
-* Josh to:
-  * Continue research into hardware requirements
-* Alex O to:
-  *
-* Tom to:
-  * Develop Requirements document ready for Audit week
-* Patrick to:
-  * Understanding of code and its Operation
-  * Streamline the OpenCV package to be lighter
-* Alex B to:
-  * Understanding of code and its Operation
-  * Streamline the OpenCV package to be lighter
-* All:
-  *
-  
-## Project Discussion
-### Last year shortcomings
-* System too slow.
+# 2. Project Discussion
+## Last year:
+* Too slow.
 * Form factor too large.
 * Enclosure took too long to 3D print. Heavier, larger and more expensive than desired.
 * Didn’t have a printed circuit board (now do).
@@ -64,5 +47,26 @@
 * Software
   * Optimise language selection. Identify better languages including, but not limited to, C or C++. Language must be computationally saving.
   * Requirement or lack thereof of comprehensive OpenCV incorporation.
+  * Hardware improvement: See if there’s a better platform than raspberry pi. Should we stick with 0 or go back.
+  * Software improvement: See if theres a better language – maybe C or C++. Computational saving. Only a small component of OpenCV is required – find a way to not have to load the entire library.
+  * Currently approximately 1.5 minutes for start-up -Set wifi, Flask server, Open cv, Intiating leds. Reduced said start-up time.
+  
+---
 
-
+## Actionables
+* Chris to:
+  * Finalise ConOps
+* Josh to:
+  * Continue research into hardware requirements
+* Alex O to:
+  *
+* Tom to:
+  * Develop Requirements document ready for Audit week
+* Patrick to:
+  * Understanding of code and its Operation
+  * Streamline the OpenCV package to be lighter
+* Alex B to:
+  * Understanding of code and its Operation
+  * Streamline the OpenCV package to be lighter
+* All:
+  *
