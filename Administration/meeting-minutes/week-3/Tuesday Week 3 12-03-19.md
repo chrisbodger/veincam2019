@@ -45,12 +45,12 @@
     * Research materials and compare manufacture cases. 
 
 * **Software**
- * Understand software with Alex O help.
+   * Understand software with Alex O help.
 
 * **Admin/Governance**
- * Review of Requirements; greater detail necessary.
- * Finished ConOps
- * Clear project outline and scope.
+   * Review of Requirements; greater detail necessary.
+   * Finish ConOps
+   * Clear project outline and scope.
 
 ### Decisions made
 * **Whole system**
@@ -71,8 +71,8 @@
 * Alex O
 
 * Alex B
-  * Understand software.
+   * Understand software.
 * Patrick
-  * Understand software.
+   * Understand software.
 * Tom
-  * Requirements.
+   * Requirements.
