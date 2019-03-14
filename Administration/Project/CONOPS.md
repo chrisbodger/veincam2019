@@ -9,6 +9,7 @@
 * [Project Vision](#project-vision)
   * [Value Proposition](#value-proposition)
   * [Project Scope](#project-scope)
+  * [Project Comparison](#project-comparison)
 * [Stakeholders](#stakeholders)
   * [Project Team](#project-team)
   * [Project Client](#project-client)
@@ -33,26 +34,52 @@
 ---
 
 ## Project Vision
-VeinCam is a device that enables the visualisation of the superficial vein system, and its purpose is to a tool to be utilised in the education of the human body and its functions. The device is based on the [Venenfinder project](https://hackaday.io/project/26158-assistance-system-for-vein-detection) submitted during the 2017 Hackaday event, and a prototype was developed in 2018 to extend the Venenfinder to become smaller, portable, and simple to build by young students and inquisitive minds while being affordable
+VeinCam is a device that enables the visualisation of the superficial veinous system. It's primary purpose is to educate curious minds on the inner workings of the human body. The current VeinCam iteration, submitted as a ANU Engineering Capstone Project in late 2018, is based on the 2017 [Venenfinder Hackaday project](https://hackaday.io/project/26158-assistance-system-for-vein-detection). The objective of the VeinCam project was to extend the Venenfinder to become smaller, portable, more afforable and easy to build by young students and inquisitive minds.
 
-This Semester, the vision is to produce a marketable kit that remains affordable and convenient to sell to educators for construction and development within a class environment.  
+After recieving incredibly positive feedback during the final presentation of VeinCam, from both educational and medical professional's alike, the decision was made to continue the VeinCam project into 2019. The vision for this next phase of development is to produce a commercially-viable DIY kit that remains affordable and convenient to market to educators for construction and development within a classroom environment.  
+
+**VEINCAM AND VEINCAM PLUS**
 
 ### Value Proposition
-Our VeinCam device will help students better understand venous sites by augmenting visualisation of upper limb veins. It will provide students with a better understanding of venous sites around the body compared to an image or model.
+Our VeinCam device will help students better understand venous sites by augmenting visualisation of upper limb veins. It will provide students with a better understanding of venous sites around the body compared to an image or model. **CONTINUE**
 
 ### Project Scope
-This project aims to continue on the achievements of the team from last semester and make the device marketable. This will include the optimization of the device and its software, including the option of migrating to a new hardware platform and rewriting some aspects of the program's code.
+This project aims to continue on the achievements of the team from last semester with the aim of polishing the device so that it is of a standard where it can marketable. This will include the optimization of the device's physical hardware and extending its software capabilities. To achieve this, we will explore the options of migrating to a new hardware platform and rewriting aspects of the current image processing code. 
 
-Continuing on from this, we will reach out to suppliers and manufacturers for the quote, order and manufacture of specialised parts. In doing so, we can have a complete bill of materials, costing and supplier sheet for the client to then use for the order to create the kits.
+A chassis will be designed and refined over several iterations, comparing off-the-shelf and custom made components using quotes from online stores and potential chassis manufacturers. The primary goal of this project is to supply the client with a complete bill of materials, costing and supplier sheet to then use for the order and manufacturing of educational kits.
 
-#### VeinCam Core Features
-The VeinCam project utilises similar hardware to the Venenfinder project (Raspberry Pi, PiCam, IR LEDs) and extends the software's capabilities to automatically adjust the infrared light filtration, brightness and contrast to produce the clearest image possible with limited manual adjustment. The device is smaller than the Venenfinder despite being battery powered and completely wireless.
 
+**VEINCAM AND VEINCAM PLUS**
+
+### Product Comparison
+The following table contains an overview of how the newer VeinCam will differentiate from the current iteration. 
+
+#### Feature Summary
+| Current VeinCam Prototype (v2.3)| VeinCam 2019 | Future Development/Stretch Goals |
+| One Version Design (VeinCam) | Two Versions (VeinCam, VeinCam Plus) | :---: |
+| Raspberry Pi 3 B+ | Raspberry Pi Zero W (VeinCam), Raspberry Pi A+ (VeinCam Plus) | Raspberry Pi Platform with Intel Neural Compute Stick 2 |
+| IR Illumination (840nm) | IR Illumination (840-940nm, adjustable) | :---: |
+| Basic LED Array | Custom LED PCB | . |
+| IR PiCamera | IR PiCamera | :---: |
+| HTML/CSS User Interface | JavaScript User Interface | Smartphone App Development |
+| Startup Time < 1 min | Startup Time < 30 seconds | :---: |
+| Wireless | . | . |
+| Portable | . | . |
+| Large 3D Printed Enclousre | Smaller Off-The-Shelf/Custom Design Enclosure(s) | :---: |
+| Manual Camera Setting (Brightness, Contrast etc.) Adjustment | Automatic Camera Setting Adjustment and Framing | Smartphone App Development |
+| Basic Image Processing | Vision-Based Image Processing | Vein Detection |
+| Open Source | Polished, Manufacturable Design | Commercial Educational Kit  |
+
+#### VeinCam v2.3 Features
+Currently, the VeinCam utilises similar hardware to the Venenfinder project (Raspberry Pi, PiCam, IR LEDs) and extends the software's capabilities to perform a histogram equalisation to allow veins to come through the image clear and prominent. VeinCam also features a web interface which allows for the manual adjustment of the camera's brightness, contrast and saturation to produce the clearest image possible. Unlike other open-source and commercially available vein cameras, VeinCam is smaller, battery powered and completely wireless.
+
+#### VeinCam 2019 Core Features
+- Smaller, more polished chassis using either off the shelf components for easy manufacturing of kit, or custom manufactured casing.
+- Image Processing with more aggressive equalization, automatic image pixel brightness adjustment to differentiate and illuminate the arm from the background, vein detection and optimization.
+- Two Versions, VeinCam (Raspi Zero) and VeinCam Plus 
 
 #### Future Marketing and Procurement Plans
-The device will receive optimisations to ensure it is the best product possible before going to market. Simultaneously, procurement options will be explored.
-
-Several avenues will be explored in efforts to optimise the device. this will include new hardware options for consideration, as well as software implementations that may lead to a software rewrite if necessary (changing from one language to another). These options will be discussed as a team going forward before agreeing on the final optimisations.
+The device will receive optimisations to ensure it is the best product possible before going to market. Simultaneously, procurement options will be explored. **CONTINUE**
 
 ---
 
@@ -61,8 +88,8 @@ The following groups have been identified as stakeholders for this project:
 
 | Stakeholder | Project Interaction |
 | --- | --- |
-| Project Team | Produces the Project Output and actions constructive feedback from other stakeholders |
-| Project Client | Provides feedback on project progress |
+| Project Team | Produces the Project Output and actions constructive feedback from other stakeholders. Provides regular updates to stakeholders regarding process through the repository documentation and verbal communication |
+| Project Client | Provides feedback on project progress and guides towards milestone objectives |
 | Shadow Team | Observes the Project and provides constructive feedback |
 | Course Tutor | Provides feedback on project progress |
 | Course Convenor | Provides feedback on project progress |
@@ -73,7 +100,7 @@ The project team consists of six undergraduate engineers who each have roles as 
 | Name | Role | Email |
 | --- | --- | --- |
 | Christopher Bodger | Procurement and Research | u5395595@anu.edu.au |
-| Alexander Ollman | Stakeholder Liaison | u5826805@anu.edu.au |
+| Alexander Ollman | Stakeholder Liaison and Operations | u5826805@anu.edu.au |
 | Alexander Binos | Software Engineer | u5799782@anu.edu.au |
 | Patrick Wilton | Software Engineer | u6050506@anu.edu.au |
 | Josh Johnson | Hardware Engineer | u6044123@anu.edu.au |
@@ -91,10 +118,14 @@ The project team consists of six undergraduate engineers who each have roles as 
 
 ##### Responsibilities of the Software Engineer
 * Design the code for the device to meet deliverables and requirements.
+* Ensure the code is stable and respositories are up-to-date. 
 
-##### Responsibilities of the Stakeholder Liaison
+##### Responsibilities of the Stakeholder Liaison and Operations
 * Be the point of contact for general communication between stakeholders.
 * Organise meetings with the client and other stakeholders when necessary.
+* Regularly update major documents when project deviates from documentation.
+* Set and lead meetings.
+* Manage the team and ensure goals and milestones are being achieved.
 
 ##### Responsibilities of Procurement and Research
 * Perform research required to strengthen the project.
@@ -102,17 +133,16 @@ The project team consists of six undergraduate engineers who each have roles as 
 * Delegate research when necessary to other team members.
 
 ##### Responsibilities of the Secretary
-* Maintain the repository.
-  * Including all documentation and meeting agendas/minutes.
+* Maintain the repository, including all documentation and meeting agendas/minutes.
 
-**To reiterate these roles show who questions should be directed to and are not indicative of workload.**
+**These roles show who questions should be directed to and are not indicative of workload.**
 
 ### Project Client
 Ben Healey (message2ben@gmail.com)
 
 Ben is medical practitioner and an employee of ACT Health. He personally began this project using pointers from open source projects such as the 2017 Hackaday project and the Venenfinder project, to develop an affordable vein imaging device.
 
-Due to Ben's increasing work commitments by ACT Health, both Chris Bodger and Alex Ollman will act as "Client by Proxy", due to their history with the project, and previous understanding of the project's desired direction.
+Due to Ben's increasing work commitments by ACT Health, both Chris Bodger and Alex Ollman will act as "Client by Proxy", due to their history with the project, and previous understanding of the project current progress and Ben's desired outcomes.
 
 #### Responsibilities of the project team to the client
 * Design a device to meet the established baseline requirements that the client has presented.
@@ -177,8 +207,7 @@ Members of the public, particularly students and educators who wish to utilise t
 
 #### Responsibilities of the project team to the users
 * Provide members of the public access to information that pertains to all aspects of the project.
-* Design a device that, at minimum, must not endanger the safety of potential users.
-* To the best of their ability, provide the public with the information to design an affordable device that can image the veins of a person.
+* Design a device that is safe, stable and provides value.
 
 #### Responsibilities of the users to the project
 * Members of the public have little steadfast responsibility to the project team.
@@ -187,14 +216,10 @@ Members of the public, particularly students and educators who wish to utilise t
 ---
 
 ## Resources
-### Funding
-Due to the researching nature of this project, there should be minimal costs for the projects. the only risk to this is the potential for the procurement of different hardware for testing, should it be deemed necessary by the team.
-
-Regardless, a [Bill of Materials](#bill-of-materials) will be generated as these costs reveal themselves, and will be used to show what the procurement and research team member has arranged for component pricing with suppliers. Costing will be updated as this information comes to light.
+The [Bill of Materials](#bill-of-materials) (BOM) outlines the current components of the device and their respective costs. The BOM will be regualrly updated as the choice of hardware is more refined as the project contiunues. The BOM will also be used to show what the procurement and research the team has arranged for component pricing with potential suppliers. 
 
 ### Tools
-
-with the potential to continue development with componentry, the tools likely to be used throughout this project include:
+With the potential to continue development with componentry, the tools likely to be used throughout this project include:
 - Soldering Iron
 - 3D Printer
 - Laser Cutter
@@ -206,14 +231,16 @@ All safety precautions outlined by the ANU Makerspace's Terms and Conditions wil
 #### Project Administration
 * GitHub
 * Google Drive
-* Discord Communications Platform
+* Discord (Primary Communications Platform)
 
 #### Manufacturing and Testing
 * Ian Ross Design Studio
 * ANU Makerspace
 
 ##### Bill of Materials
-An initial Bill of Materials has been drafted below of what we expect the project to cost.
+A Bill of Materials has been drafted below of what we expect the final product(s) to cost:
+
+**COMPLETE** 
 
 | Component | Cost (AUD) | Supplied By Client |
 | --- | :---: | :---: |
@@ -233,28 +260,28 @@ Source code from the last semester of development will be modified for the optim
 The initial deliverables are as follows:
 
 #### Baseline Deliverables
-* Determine the suitability of the current hardware and if it should be replaced with a more appropriate platform.
-* Optimise the software for the desired hardware to run more efficiently, as outlined in the [Requirements](Administration/Project/Requirements.md) document.
+* Determine the suitability of the current hardware and confirm final hardware solution.
+* Optimise the software for the desired hardware to run more efficiently and detect veins more clearly to meet the desired system [requirements](Administration/Project/Requirements.md).
 * Compile a list of procurement options and outline sources for the client to then purchase and build the kit for distribution.
 
-**DECIDE OF STRETCH GOALS**
 #### Stretch Deliverables
-
+**DECIDE OF STRETCH GOALS**
+**VEINCAM PLUS**
 
 ### Milestones
-Further detail on the optimisation of milestones and design aims of the prototype are detailed in the Requirements document.
+Further detail on the optimisation of milestones and objectives of the project are detailed in the Requirements document.
 
 #### Milestone 1
-Decide on final hardware appropriate for the project's vision
+Decide on final hardware appropriate for the project's commercial vision.
 
 #### Milestone 2
-Optimise software to run as efficiently as possible for the desired platform
+Optimise software to run as efficiently as possible for the desired hardware platform(s). Enclosure designs finalised. 
 
 #### Milestone 3
 Compile quotations for external manufacture of components (PCBs, case, etc.)
 
 #### Milestone 4
-A kit of compiled components ready for distribution.
+A kit of compiled components ready for the client for commercial distribution.
 
 ### Audit Goals
 #### Audit 1
@@ -269,12 +296,13 @@ A kit of compiled components ready for distribution.
 #### Audit 3
 * Achieve Milestone 3/4 with accompanying verification and validation
 
-Milestones are subject to change as the project evolves.
+Milestones are subject to change as the project evolves. Changes will be made to this document to reflect project's new objectives.  
 
 ### Timelines
 An [indicative schedule](https://docs.google.com/spreadsheets/d/1nfNqFCF2ieP5CyVmqDSeZ3oXegxcCG4hojdd6fMcq9Y/edit?usp=sharing) has been drafted for the project.
 
 **REWRITE THIS**
+
 ### Work Breakdown Structure
 1. Requirements Analysis
    1.1. Review PoC
@@ -304,6 +332,7 @@ Decision making will be by consensus in consultation with the client. When conse
 ---
 
 **REWRITE THIS**
+
 ## Risk Analysis
 All risk analysis performed throughout this project will be in accordance to the Australian and New Zealand Industry Standard AS/NZS 4360:2004.
 
