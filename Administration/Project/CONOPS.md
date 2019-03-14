@@ -63,10 +63,10 @@ The following table contains an overview of how the newer VeinCam will different
 | Basic LED Array | Custom LED PCB | |
 | IR PiCamera | IR PiCamera |  |
 | HTML/CSS User Interface | JavaScript User Interface | Smartphone App Development |
-| Startup Time < 1 min | Startup Time < 30 seconds | :---: |
+| Startup Time < 1 min | Startup Time < 30 seconds | |
 | Wireless, Portable and Battery Powered | Wireless, Portable and Battery Powered  | |
 | Large 3D Printed Enclousre | Smaller Off-The-Shelf/Custom Design Enclosure(s) | |
-| Manual Camera Setting (Brightness, Contrast etc.) Adjustment | Automatic Camera Setting Adjustment and Framing | Smartphone App Development |
+| Manual Camera Setting (Brightness, Contrast etc.) Adjustment | Automatic Camera Setting Adjustment and Framing | |
 | Basic Image Processing | Vision-Based Image Processing | Vein Detection |
 | Open Source | Polished, Manufacturable Design | Commercial Educational Kit  |
 
