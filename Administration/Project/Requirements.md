@@ -2,8 +2,7 @@
 
 | Author        | Date Created           | Version |Completion Status  |
 | :-------------: |:-------------:| :-----:| :----:|
-| Tomas Johnson      | 10/03/2019 | 1 |To be reviewed |
-| Alexander Ollman   | 10/03/2019 | 1.1 | Awaiting Completion |
+| Alexander Ollman   | 14/03/2019 | 1.1 | Awaiting Completion |
 
 ### System Requirements:
 1. Compared to other devices with similar functionality, the produced device must be relatively inexpensive.
