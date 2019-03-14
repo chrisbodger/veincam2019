@@ -57,16 +57,15 @@ The following table contains an overview of how the newer VeinCam will different
 #### Feature Summary
 | Current VeinCam Prototype (v2.3)| VeinCam 2019 | Future Development/Stretch Goals |
 | :---: | :---: | :---: |
-| One Version Design (VeinCam) | Two Versions (VeinCam, VeinCam Plus) | :---: |
+| One Version Design (VeinCam) | Two Versions (VeinCam, VeinCam Plus) |  |
 | Raspberry Pi 3 B+ | Raspberry Pi Zero W (VeinCam), Raspberry Pi A+ (VeinCam Plus) | Raspberry Pi Platform with Intel Neural Compute Stick 2 |
-| IR Illumination (840nm) | IR Illumination (840-940nm, adjustable) | :---: |
-| Basic LED Array | Custom LED PCB | . |
-| IR PiCamera | IR PiCamera | :---: |
+| IR Illumination (840nm) | IR Illumination (840-940nm, adjustable) | |
+| Basic LED Array | Custom LED PCB | |
+| IR PiCamera | IR PiCamera |  |
 | HTML/CSS User Interface | JavaScript User Interface | Smartphone App Development |
 | Startup Time < 1 min | Startup Time < 30 seconds | :---: |
-| Wireless | . | . |
-| Portable | . | . |
-| Large 3D Printed Enclousre | Smaller Off-The-Shelf/Custom Design Enclosure(s) | :---: |
+| Wireless, Portable and Battery Powered | Wireless, Portable and Battery Powered  | |
+| Large 3D Printed Enclousre | Smaller Off-The-Shelf/Custom Design Enclosure(s) | |
 | Manual Camera Setting (Brightness, Contrast etc.) Adjustment | Automatic Camera Setting Adjustment and Framing | Smartphone App Development |
 | Basic Image Processing | Vision-Based Image Processing | Vein Detection |
 | Open Source | Polished, Manufacturable Design | Commercial Educational Kit  |
