@@ -1,9 +1,9 @@
 # Concept of Operations
 
 ## Version History
-| Version | Description |
-| --- | --- |
-| A | Initial Document |
+| Version | Description | Audit Version |
+| --- | --- | --- |
+| 1.2 | Initial Document | Audit 1 |
 
 ## Table of Contents
 * [Project Vision](#project-vision)
