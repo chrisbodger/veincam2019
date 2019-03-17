@@ -17,7 +17,9 @@ The hardware team have spent their time over the last 2 weeks exploring options 
 With this in mind, we hope to create a universal hardware platform for the VeinCam Software to utilise, while making the RasPi swappable. This means the VeinCam and its hardware will be able to run without issue regardless of the type of RasPi it is plugged into.
 
 ### Software
-**SOFTWARE TEAM TO FILL OUT**
+The software team have spent their time over the last 2 weeks understanding the current revision of the VeinCam software works and is integrated with hardware. A high-level software sub-system overview was made into a Visio diagram which greatly helped the team comprehend how the systems worked with each other. This also led to identifying areas for optimisation and improvement including: Python image processing, boot time optimisation, and front-end functionality and aesthetics.
+
+The first area of focus following on from this initial learning curve will be the optimisation of boot time and improving the image processing, where a small amount of investigation has been done in each of these areas. 
 
 ### Previous Updates
 Previous project updates can be found in the [Project Updates](Administration/project-updates) directory, and will be populated as progress updates are made. Team work diaries can be found in the [Hardware](/Hardware/HardwareDiary.md) and [Software](/Software/SoftwareDiary.md) folders, as well as team [Decision Logs](/Administration/Project/Decision-Log.md) are other locations for progress notes, should they not be located on this page.
