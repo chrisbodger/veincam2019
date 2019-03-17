@@ -14,7 +14,7 @@ This is the repository for the continuation of the VeinCam Project for ANU ENGN4
 
 
 ---
-## 1. Project Goals
+# 1. Project Goals
 There are 3 goals we wish to achieve this semester:
 
 1. Develop a set of hardware requirements that are suitable for the VeinCam Project.
@@ -48,5 +48,5 @@ The [Concept of Operations](Administration/Project/CONOPS.md) document can be fo
 The team regularly meet to formally discuss the project's progress, as well as through other communication channels. the minutes from the formal discussions can be found in the [Meeting Minutes](Administration/meeting-minutes/) directory.
 
 # 6. Decision Log
-Major decisions that affect the majority or all of the project's future work and/or operations can be found in the [Decision Log](Administration/decision-log/). 
+Major decisions that affect the majority or all of the project's future work and/or operations can be found in the [Decision Log](Administration/Project/Decision-Log.md/). 
 
