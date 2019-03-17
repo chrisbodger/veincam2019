@@ -1,7 +1,7 @@
 
 ![VeinCam](https://github.com/chrisbodger/veincam2019/blob/master/Administration/Images/veincam1.png)
 
-This is the repository for the continuation of the VeinCam Project for ANU ENGN4221. The repository for Last Semester can be found [HERE](https://www.github.com/chrisbodger/veincam). This repository is created to delineate the progress made this semester from the progress made from last semester, and present a clear direction for this next stage.
+This is the repository for the continuation of the VeinCam Project as an ANU Engineering Captone Project in 2019. The repository for the previous work can be found [HERE](https://www.github.com/chrisbodger/veincam). This repository will be used to delineate and document the progress made this semester, in what is to be the next chapter of this exciting projet. 
 
 ---
 # Table Of Contents
