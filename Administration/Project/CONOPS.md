@@ -44,7 +44,7 @@ After recieving incredibly positive feedback during the final presentation of Ve
 Our VeinCam device will help students better understand venous sites by augmenting visualisation of upper limb veins. It will provide students with a better understanding of venous sites around the body compared to an image or model. **CONTINUE**
 
 ### Project Scope
-This project aims to continue on the achievements of the team from last semester with the aim of polishing the device so that it is of a standard where it can marketable. This will include the optimization of the device's physical hardware and extending its software capabilities. To achieve this, we will explore the options of migrating to a new hardware platform and rewriting aspects of the current image processing code. 
+This project aims to continue on the achievements of the team from last semester with the aim of polishing the device so that it is of a standard where it can marketable. This will include the optimization of the device's physical hardware and extending its software capabilities. To achieve this, we will explore the options of migrating to a new hardware platform and rewriting aspects of the current image processing code.
 
 A chassis will be designed and refined over several iterations, comparing off-the-shelf and custom made components using quotes from online stores and potential chassis manufacturers. The primary goal of this project is to supply the client with a complete bill of materials, costing and supplier sheet to then use for the order and manufacturing of educational kits.
 
@@ -52,7 +52,7 @@ A chassis will be designed and refined over several iterations, comparing off-th
 **VEINCAM AND VEINCAM PLUS**
 
 ### Product Comparison
-The following table contains an overview of how the newer VeinCam will differentiate from the current iteration. 
+The following table contains an overview of how the newer VeinCam will differentiate from the current iteration.
 
 #### Feature Summary
 | Current VeinCam Prototype (v2.3)| VeinCam 2019 | Future Development/Stretch Goals |
@@ -76,7 +76,7 @@ Currently, the VeinCam utilises similar hardware to the Venenfinder project (Ras
 #### VeinCam 2019 Core Features
 - Smaller, more polished chassis using either off the shelf components for easy manufacturing of kit, or custom manufactured casing.
 - Image Processing with more aggressive equalization, automatic image pixel brightness adjustment to differentiate and illuminate the arm from the background, vein detection and optimization.
-- Two Versions, VeinCam (Raspi Zero) and VeinCam Plus 
+- Two Versions, VeinCam (Raspi Zero) and VeinCam Plus
 
 #### Future Marketing and Procurement Plans
 The device will receive optimisations to ensure it is the best product possible before going to market. Simultaneously, procurement options will be explored. **CONTINUE**
@@ -118,7 +118,7 @@ The project team consists of six undergraduate engineers who each have roles as 
 
 ##### Responsibilities of the Software Engineer
 * Design the code for the device to meet deliverables and requirements.
-* Ensure the code is stable and respositories are up-to-date. 
+* Ensure the code is stable and respositories are up-to-date.
 
 ##### Responsibilities of the Stakeholder Liaison and Operations
 * Be the point of contact for general communication between stakeholders.
@@ -158,12 +158,12 @@ ANU undergraduate engineering students, tasked with reviewing this project to pr
 
 | Name | Email |
 | --- | --- |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
+| Elton Lu | u6096527@anu.edu.au |
+| Patrick Dunphy | u6052409@anu.edu.au |
+| Phillip Pulford | u5809328@anu.edu.au |
+| Sha Shaharuddin | u5988860@anu.edu.au |
+| Zachary Mason | u6080840@anu.edu.au |
+| Ze Gan | u6051306@anu.edu.au |
 
 #### Responsibilities of the project team to the shadow team
 * Provide shadows access to all information surrounding the project, including repositories, documentation and relevant communications.  This information should be up-to-date and presented appropriately.
@@ -216,7 +216,7 @@ Members of the public, particularly students and educators who wish to utilise t
 ---
 
 ## Resources
-The [Bill of Materials](#bill-of-materials) (BOM) outlines the current components of the device and their respective costs. The BOM will be regualrly updated as the choice of hardware is more refined as the project contiunues. The BOM will also be used to show what the procurement and research the team has arranged for component pricing with potential suppliers. 
+The [Bill of Materials](#bill-of-materials) (BOM) outlines the current components of the device and their respective costs. The BOM will be regualrly updated as the choice of hardware is more refined as the project contiunues. The BOM will also be used to show what the procurement and research the team has arranged for component pricing with potential suppliers.
 
 ### Tools
 With the potential to continue development with componentry, the tools likely to be used throughout this project include:
@@ -240,7 +240,7 @@ All safety precautions outlined by the ANU Makerspace's Terms and Conditions wil
 ##### Bill of Materials
 A Bill of Materials has been drafted below of what we expect the final product(s) to cost:
 
-**COMPLETE** 
+**COMPLETE**
 
 | Component | Cost (AUD) | Supplied By Client |
 | --- | :---: | :---: |
@@ -275,7 +275,7 @@ Further detail on the optimisation of milestones and objectives of the project a
 Decide on final hardware appropriate for the project's commercial vision.
 
 #### Milestone 2
-Optimise software to run as efficiently as possible for the desired hardware platform(s). Enclosure designs finalised. 
+Optimise software to run as efficiently as possible for the desired hardware platform(s). Enclosure designs finalised.
 
 #### Milestone 3
 Compile quotations for external manufacture of components (PCBs, case, etc.)
