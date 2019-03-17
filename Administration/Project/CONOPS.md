@@ -36,20 +36,17 @@
 ## Project Vision
 VeinCam is a device that enables the visualisation of the superficial veinous system. It's primary purpose is to educate curious minds on the inner workings of the human body. The current VeinCam iteration, submitted as a ANU Engineering Capstone Project in late 2018, is based on the 2017 [Venenfinder Hackaday project](https://hackaday.io/project/26158-assistance-system-for-vein-detection). The objective of the VeinCam project was to extend the Venenfinder to become smaller, portable, more afforable and easy to build by young students and inquisitive minds.
 
-After recieving incredibly positive feedback during the final presentation of VeinCam, from both educational and medical professional's alike, the decision was made to continue the VeinCam project into 2019. The vision for this next phase of development is to produce a commercially-viable DIY kit that remains affordable and convenient to market to educators for construction and development within a classroom environment.  
+After recieving incredibly positive feedback during the final presentation of VeinCam, from both educational and medical professional's alike, the decision was made to continue the VeinCam project into 2019. The vision for this next phase of development is to produce commercially-viable DIY kits that remains affordable and convenient to market to educators for construction and development within a classroom environment.  
 
-**VEINCAM AND VEINCAM PLUS**
+There will be two iterations of the VeinCam kit: VeinCam and VeinCam Plus.
 
 ### Value Proposition
-Our VeinCam device will help students better understand venous sites by augmenting visualisation of upper limb veins. It will provide students with a better understanding of venous sites around the body compared to an image or model. **CONTINUE**
+Our VeinCam device will help students better understand the human body by augmenting visualisation of upper limb veins. It will provide students with an interactive expereience and fun way to learn about the venous sites of the body. At an educational level, this has never been done before as commerically available products with similar capabilites are far beyond a price point that would be considered by educators. Our value proposition is to provide this experience and funcionality at a fraction of the cost. 
 
 ### Project Scope
 This project aims to continue on the achievements of the team from last semester with the aim of polishing the device so that it is of a standard where it can marketable. This will include the optimization of the device's physical hardware and extending its software capabilities. To achieve this, we will explore the options of migrating to a new hardware platform and rewriting aspects of the current image processing code.
 
-A chassis will be designed and refined over several iterations, comparing off-the-shelf and custom made components using quotes from online stores and potential chassis manufacturers. The primary goal of this project is to supply the client with a complete bill of materials, costing and supplier sheet to then use for the order and manufacturing of educational kits.
-
-
-**VEINCAM AND VEINCAM PLUS**
+Two chassis (VeinCam and VeinCam Plus) will be designed and refined over several iterations, comparing off-the-shelf and custom made components using quotes from online stores and potential chassis manufacturers. The primary goal of this project is to supply the client with a complete bill of materials, costing and supplier sheet to then use for the order and manufacturing of educational kits.
 
 ### Product Comparison
 The following table contains an overview of how the newer VeinCam will differentiate from the current iteration.
@@ -76,7 +73,7 @@ Currently, the VeinCam utilises similar hardware to the Venenfinder project (Ras
 #### VeinCam 2019 Core Features
 - Smaller, more polished chassis using either off the shelf components for easy manufacturing of kit, or custom manufactured casing.
 - Image Processing with more aggressive equalization, automatic image pixel brightness adjustment to differentiate and illuminate the arm from the background, vein detection and optimization.
-- Two Versions, VeinCam (Raspi Zero) and VeinCam Plus
+- Two Versions, VeinCam and VeinCam Plus 9R
 
 #### Future Marketing and Procurement Plans
 The device will receive optimisations to ensure it is the best product possible before going to market. Simultaneously, procurement options will be explored. **CONTINUE**
@@ -216,7 +213,7 @@ Members of the public, particularly students and educators who wish to utilise t
 ---
 
 ## Resources
-The [Bill of Materials](#bill-of-materials) (BOM) outlines the current components of the device and their respective costs. The BOM will be regualrly updated as the choice of hardware is more refined as the project contiunues. The BOM will also be used to show what the procurement and research the team has arranged for component pricing with potential suppliers.
+The [Bill of Materials](/Hardware/Estimated%20Financials.xlsx) (BoM) outlines the current components of the device and their respective costs. The BOM will be regualrly updated as the choice of hardware is more refined as the project contiunues. The BoM will also be used to show what the procurement and research the team has arranged for component pricing with potential suppliers.
 
 ### Tools
 With the potential to continue development with componentry, the tools likely to be used throughout this project include:
@@ -237,36 +234,17 @@ All safety precautions outlined by the ANU Makerspace's Terms and Conditions wil
 * Ian Ross Design Studio
 * ANU Makerspace
 
-##### Bill of Materials
-A Bill of Materials has been drafted below of what we expect the final product(s) to cost:
-
-**COMPLETE**
-
-| Component | Cost (AUD) | Supplied By Client |
-| --- | :---: | :---: |
-| | | |
-| | | |
-
-Please note that component pricing is not finalised and is suitable for a quotation only. Manufacturing costs can vary with the price of raw materials as determined by the suppliers.
-
 #### Programming
-Source code from the last semester of development will be modified for the optimisation of the current platform, or rewritten if deemed appropriate. A snapshot of the code has been captured and archived within the [repository](/master/Software/Initial%20Code).
-
-**FEATURES INCLUDE**
----
+Source code from the last semester of development will be modified for the optimisation of the current platform, or rewritten if deemed appropriate. A snapshot of the code has been captured and archived within the [repository](/master/Software/Initial%20Code). The code will be written on the Linux platform using Python and C++ programming languages, with all relevant extenral code referenced in the repository. 
 
 ## Project Management
 ### Deliverables
 The initial deliverables are as follows:
 
-#### Baseline Deliverables
+#### Deliverables
 * Determine the suitability of the current hardware and confirm final hardware solution.
 * Optimise the software for the desired hardware to run more efficiently and detect veins more clearly to meet the desired system [requirements](Administration/Project/Requirements.md).
 * Compile a list of procurement options and outline sources for the client to then purchase and build the kit for distribution.
-
-#### Stretch Deliverables
-**DECIDE OF STRETCH GOALS**
-**VEINCAM PLUS**
 
 ### Milestones
 Further detail on the optimisation of milestones and objectives of the project are detailed in the Requirements document.
@@ -331,8 +309,6 @@ Decision making will be by consensus in consultation with the client. When conse
 
 ---
 
-**REWRITE THIS**
-
 ## Risk Analysis
 All risk analysis performed throughout this project will be in accordance to the Australian and New Zealand Industry Standard AS/NZS 4360:2004.
 
@@ -342,8 +318,8 @@ Potential risks to the success of the project have been brainstormed in order to
 
 | Risk | Consequences | Likelihood | Severity | Mitigation |
 | :---: | :---: | :---: | :---: | :---: |
-| Not clearly understanding or defining client's requirements for the project. | Product does not meet client requirements, client dissatisfied, requires re-doing work, going over budget and schedule to redesign | D | 3 | Maintain regular contact with client regarding progress and milestone completion. |
-| Not defining scope of project and setting clear and achievable milestones. | No clear definition of project progress, feature creep over time results in lack of physical product, no clear "stopping point" for project or completed product, client dissatisifed, product does not meet customer requirements, likely to be over-budget. | C | 3 | Defining scope early and ensuring we stick to milestones and their respective outputs to ensure we do not deviate on a project tangent. |
+| Not clearly understanding or defining requirements for the project. | Product does not meet requirements, primary client dissatisfied, requires re-doing work, going over budget and schedule to redesign | D | 3 | Maintain regular contact with client regarding progress and milestone completion. |
+| Not defining scope of project and setting clear and achievable milestones. | No clear definition of project progress, feature creep over time results in lack of physical product, no clear "stopping point" for project or completed product, client dissatisifed, product does not meet customer requirements, likely to be over-budget. | C | 3 | Defining scope early and ensuring we stick to milestones and their respective outputs to ensure we do not deviate on a project tangent. Meeting (at minimum) weekly to discuss progress and next actionable deliverable for each team member, who is then held accountable for achieving that deliverable in the given time frame. |
 
 
 ### Safety Risk Analysis
