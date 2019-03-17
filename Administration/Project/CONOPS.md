@@ -75,9 +75,6 @@ Currently, the VeinCam utilises similar hardware to the Venenfinder project (Ras
 - Image Processing with more aggressive equalization, automatic image pixel brightness adjustment to differentiate and illuminate the arm from the background, vein detection and optimization.
 - Two Versions, VeinCam and VeinCam Plus 9R
 
-#### Future Marketing and Procurement Plans
-The device will receive optimisations to ensure it is the best product possible before going to market. Simultaneously, procurement options will be explored. **CONTINUE**
-
 ---
 
 ## Stakeholders
