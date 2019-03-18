@@ -1,9 +1,9 @@
-(module PIRHAT_ZERO (layer F.Cu) (tedit 5C888A64)
+(module PIRHAT_ZERO (layer F.Cu) (tedit 5C8EF710)
   (descr "Raspberry Pi Zero W IR Hat, full outline with position of big connectors &amp; drill holes")
-  (fp_text reference U$3 (at 0 0) (layer F.SilkS) hide
+  (fp_text reference TP1 (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1.27 1.27) (thickness 0.15)))
   )
-  (fp_text value PIRHAT_ZERO (at 0 0) (layer F.SilkS) hide
+  (fp_text value RPiZero_BoardOutline (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1.27 1.27) (thickness 0.15)))
   )
   (fp_arc (start 3 -3) (end 0 -3) (angle -90) (layer Edge.Cuts) (width 0.254))
@@ -18,8 +18,8 @@
   (fp_line (start 6.1 -7.992) (end 19 -7.992) (layer Edge.Cuts) (width 0.254))
   (fp_line (start 6.1 -7.992) (end 6.1 0) (layer Edge.Cuts) (width 0.254))
   (fp_line (start 19 -7.992) (end 19 0) (layer Edge.Cuts) (width 0.254))
-  (fp_line (start 5 -15) (end 20 -15) (layer F.SilkS) (width 0.15))
-  (fp_line (start 60 -15) (end 50 -15) (layer F.SilkS) (width 0.15))
+  (fp_line (start 5 -15) (end 20 -15) (layer F.Fab) (width 0.15))
+  (fp_line (start 60 -15) (end 50 -15) (layer F.Fab) (width 0.15))
   (fp_line (start 24.857 -10) (end 34.1204 -10) (layer Edge.Cuts) (width 0.127))
   (fp_line (start 34.1204 -10) (end 34.1204 -3.5) (layer Edge.Cuts) (width 0.127))
   (fp_line (start 34.1204 -3.5) (end 43.18 -3.5) (layer Edge.Cuts) (width 0.127))
