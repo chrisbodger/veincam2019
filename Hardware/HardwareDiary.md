@@ -13,3 +13,7 @@
 * Preliminary schematic design for RPi Zero W Hat to allow prelim BOM generation and costing.
 * BOM generation and component selection for both Hats.
 * Estimated costing for both RPi Zero and RPi 3A+ devices, inclusive of PCA's and supporting hardware.
+
+### Week Beginning 18/03/2019
+* Created footprints and sourced / drew 3D models for all required components on PCA.
+* Laid out RPiZero Hat, begun layout on RPi3A+ hat.
