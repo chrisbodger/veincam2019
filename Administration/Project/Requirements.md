@@ -18,8 +18,8 @@
 
 ### Requirements of Hardware Team
 1. Redesign device enclosure(s) to accomodate Raspberry Pi A+ and Raspberry Pi Zero.
-2. Research materials and compare between manufacturing cases vs using off the shelf components.
-3. 
+2. Design required printed circuit board assemblies to succesfully integrate all required functionality. 
+3. Ensure Design for Manufacturing and Assembly is considered during the above two steps.
 
 ### Requirements of Software Team
 1. Modify current image processing code to be more efficient.
