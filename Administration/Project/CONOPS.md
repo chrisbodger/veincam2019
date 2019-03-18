@@ -18,13 +18,11 @@
   * [Course Convenor](#course-convenor)
   * [Users](#users)
 * [Resources](#resources)
-  * [Funding](#funding)
   * [Tools](#tools)
 * [Project Management](#project-management)
   * [Deliverables](#deliverables)
   * [Milestones](#milestones)
   * [Audit Goals](#audit-goals)
-  * [Timelines](#timelines)
   * [Work Breakdown Structure](#work-breakdown-structure)
   * [Decision Making and Conflict Resolution](#decision-making-and-conflict-resolution)
 * [Risk Analysis](#risk-analysis)
@@ -272,11 +270,6 @@ A kit of compiled components ready for the client for commercial distribution.
 * Achieve Milestone 3/4 with accompanying verification and validation
 
 Milestones are subject to change as the project evolves. Changes will be made to this document to reflect project's new objectives.  
-
-### Timelines
-An [indicative schedule](https://docs.google.com/spreadsheets/d/1nfNqFCF2ieP5CyVmqDSeZ3oXegxcCG4hojdd6fMcq9Y/edit?usp=sharing) has been drafted for the project.
-
-**REWRITE THIS**
 
 ### Work Breakdown Structure
 1. Requirements Analysis
