@@ -134,7 +134,7 @@ Ben Healey (message2ben@gmail.com)
 
 Ben is medical practitioner and an employee of ACT Health. He personally began this project using pointers from open source projects such as the 2017 Hackaday project and the Venenfinder project, to develop an affordable vein imaging device.
 
-Due to Ben's increasing work commitments by ACT Health, both Chris Bodger and Alex Ollman will act as "Client by Proxy", due to their history with the project, and previous understanding of the project current progress and Ben's desired outcomes.
+Due to Ben's increasing work commitments, both Chris Bodger and Alex Ollman will act as "Client by Proxy", due to their history with the project, and previous understanding of the project current progress and Ben's desired outcomes.
 
 #### Responsibilities of the project team to the client
 * Design a device to meet the established baseline requirements that the client has presented.
