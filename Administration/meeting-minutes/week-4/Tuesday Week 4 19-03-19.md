@@ -1,18 +1,19 @@
 # Meeting Minutes 19-03-19
 
-|Attending|Absent|
-|:....:|:....:|
-|Chris Bodger||
-|Alex Ollman||
-|Josh Johnson||
-|Alex Binos||
-|Patrick Wilton||
-|Tomas Johnson||
+| Attending | Absent |
+|:----:|:----:|
+| Chris Bodger | |
+| Alex Ollman | |
+| Josh Johnson | |
+| Alex Binos | |
+| Patrick Wilton | |
+| Tomas Johnson | |
 
 ## Agenda
 1. Project Discussion
+2. Technical Leadership Program
 
-## Project Discussion
+## 1. Project Discussion
 ### Governance
 * Software and Hardware diaries are up. Aim to continue to update consistently and thoroughly throughout the duration of the project.
 * Commercialization parameters should be investigated to verify associated commercial feasibility of the system.
@@ -30,10 +31,10 @@
 * The goal of comprehension/understanding of the code has been achieved.
 * Development mode currently working; originally was only working for a Microsoft system.
 
-### Technical Leadership Program
+## 2. Technical Leadership Program
 * Josh and Chris attended on the 18/03/19. Salient points include:
   * Maintaining a clear value proposition.
-  * Group collaboration; to be done when Audits begin.
+  * Group collaboration; to be done when Audits begin with shadow teams.
   * Evenly distributing work amongst group members.
   * Team performance and weaknesses. Currently we struggle to change things due to the amount of code being overwhelming. Aim to reduce/simplify the number of files being used.
 
@@ -55,7 +56,11 @@
 * Nil.
 
 ## Goals for next week
+* Maintain Hardware and Software diaries.
 * Gain feedback from Audit 1. Develop actionables from feedback.
+* Provide feedback to shadow teams.
+* Fill orders for boards and parts.
+* Commercialization parameters.
 
 ## Actionables
 * Look into getting temporary group tattoos.
