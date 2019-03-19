@@ -520,28 +520,6 @@ Wire Wire Line
 Connection ~ 2600 1600
 Wire Wire Line
 	2600 1600 2650 1600
-Wire Wire Line
-	2850 1650 2850 1600
-Wire Wire Line
-	2850 1600 2900 1600
-Wire Wire Line
-	2950 1600 2950 1650
-Wire Wire Line
-	2900 1600 2900 1550
-Connection ~ 2900 1600
-Wire Wire Line
-	2900 1600 2950 1600
-$Comp
-L power:+3V3 #PWR02
-U 1 1 5C92386C
-P 2900 1550
-F 0 "#PWR02" H 2900 1400 50  0001 C CNN
-F 1 "+3V3" H 2900 1700 50  0000 C CNN
-F 2 "" H 2900 1550 50  0001 C CNN
-F 3 "" H 2900 1550 50  0001 C CNN
-	1    2900 1550
-	1    0    0    -1  
-$EndComp
 NoConn ~ 1950 2150
 NoConn ~ 1950 2350
 NoConn ~ 1950 2450
@@ -669,4 +647,6 @@ LED_940
 NoConn ~ 3550 3650
 NoConn ~ 1950 3150
 NoConn ~ 1950 3250
+NoConn ~ 2850 1650
+NoConn ~ 2950 1650
 $EndSCHEMATC

@@ -19,8 +19,8 @@ F ~
 $ENDCMP
 #
 $CMP NTJD4001N
-D ~
-K ~
+D Dual NMOS transistor, 6 pin package
+K transistor NMOS N-MOS N-MOSFET
 F ~
 $ENDCMP
 #

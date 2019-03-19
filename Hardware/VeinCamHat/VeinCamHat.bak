@@ -572,7 +572,6 @@ NoConn ~ 2650 2750
 NoConn ~ 2650 2650
 NoConn ~ 2650 2450
 NoConn ~ 2650 2350
-NoConn ~ 3650 -400
 $Comp
 L power:PWR_FLAG #FLG01
 U 1 1 5C8B7FB3
