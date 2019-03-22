@@ -17,3 +17,6 @@
 ### Week Beginning 18/03/2019
 * Created footprints and sourced / drew 3D models for all required components on PCA.
 * Laid out RPiZero Hat, begun layout on RPi3A+ hat.
+* Ordered parts from Mouser for new boards.
+* Plans for RPi3A+ hat changed, no longer integrating charge circuit so changed schematic and laid out new design.
+* Finished layout for both boards, got team approval, order placed 23/3/19 with JLCPCB. ETA Friday Week 5.

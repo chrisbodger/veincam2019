@@ -1,24 +1,18 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.0.2)-1*
-G04 #@! TF.CreationDate,2019-03-22T12:40:45+11:00*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.0)-1*
+G04 #@! TF.CreationDate,2019-03-23T08:53:22+11:00*
 G04 #@! TF.ProjectId,VeinCamHatZero,5665696e-4361-46d4-9861-745a65726f2e,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Profile,NP*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.0.2)-1) date 22/03/2019 12:40:45*
+G04 Created by KiCad (PCBNEW (5.1.0)-1) date 2019-03-23 08:53:22*
 %MOMM*%
 %LPD*%
-G01*
 G04 APERTURE LIST*
-G04 #@! TA.AperFunction,NonConductor*
 %ADD10C,0.127000*%
-G04 #@! TD*
-G04 #@! TA.AperFunction,NonConductor*
 %ADD11C,0.254000*%
-G04 #@! TD*
 G04 APERTURE END LIST*
 D10*
-G04 #@! TO.C,TP1*
 X229857000Y-75000000D02*
 X229857000Y-85000000D01*
 X239120400Y-75000000D02*
@@ -76,5 +70,4 @@ X208000000Y-95000000D02*
 G75*
 G02X205000000Y-92000000I0J3000000D01*
 G01*
-G04 #@! TD*
 M02*
