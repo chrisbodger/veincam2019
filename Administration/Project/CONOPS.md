@@ -295,7 +295,7 @@ Milestones are subject to change as the project evolves. Changes will be made to
    4.5. Organise repository
 
 ### Decision Making and Conflict Resolution
-Decision making will be by consensus in consultation with the client. When consensus cannot be reached the project team will seek advice from other stakeholders depending on the nature of the decision. For further detail please refer to the [Decision Log](Administration/Project/Decision-Log.md).
+Decision making will be by consensus in consultation with the client. When consensus cannot be reached the project team will seek advice from other stakeholders depending on the nature of the decision. For further detail please refer to the [Decision Log](https://github.com/chrisbodger/veincam2019/blob/master/Administration/Project/Decision-Log.md).
 
 ---
 
