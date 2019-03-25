@@ -53,7 +53,7 @@ The following table contains an overview of how the newer VeinCam will different
 | Current VeinCam Prototype (v2.3)| VeinCam 2019 | Future Development/Stretch Goals |
 | :---: | :---: | :---: |
 | One Version Design (VeinCam) | Two Versions (VeinCam, VeinCam Plus) |  |
-| Raspberry Pi 3 B+ | Raspberry Pi Zero W (VeinCam), Raspberry Pi A+ (VeinCam Plus) | Raspberry Pi Platform with Intel Neural Compute Stick 2 |
+| Raspberry Pi 3 B+ | Raspberry Pi Zero W (VeinCam), Raspberry Pi A+ (VeinCam Plus) |  |
 | IR Illumination (840nm) | IR Illumination (840-940nm, adjustable) | |
 | Basic LED Array | Custom LED PCB | |
 | IR PiCamera | IR PiCamera |  |
