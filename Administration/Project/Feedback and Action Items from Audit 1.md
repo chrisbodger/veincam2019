@@ -52,6 +52,13 @@
 * Decision log is empty for software (aforementioned).
 
 
-## Action Items from Audit 1 Feedback
+## Actions Completed
+* Decision log can now be accessed from the conops.
+* An introduction for the Veincam on the repo landing page has been added.
 
-* *To be further discussed and decided during Meeting/Tute, Tuesday 26/03/19.*
+## Action Items from Audit 1 Feedback
+* Hardware and Software to present in more laymans terms for next Audit to avoid technical confusion from the Audience.
+* Break down requirements for high level milestones.
+* Until software is completed it is uncertain whether or not we will need two versions of the Veincam.
+* Clarify commercialization verification meaning.
+* Software and Hardware to better discuss technical decisions with whole team.
