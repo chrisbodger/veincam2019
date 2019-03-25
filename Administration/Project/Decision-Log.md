@@ -8,4 +8,4 @@
 ||Boards for the Zero and Plus versions will be produced in red and blue, respectively. The viencam.org url, version number and date to be added to the back of boards.|23/03/19|4|
 |Software|Decision to code in Python instead of C++.|12/03/2019|3|
 |Governance|Following Audit 1 feedback, discussed with primary client the relevance of requiring ANU Ethics approval. Given the goal of this project is to design a commercial kit, not commercialise a product, go to market, or test it publically, the decision has been made to not seek ANU Ethics approval. |24/03/2019|5|
-
+|Whole system|Until software is verified the need and/or potential for two verions of the system is uncertain. Therefore it is decided for software to be verified prior to final decision whether or not to deliver several versions.|5|26/03/19|
