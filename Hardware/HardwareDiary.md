@@ -20,3 +20,6 @@
 * Ordered parts from Mouser for new boards.
 * Plans for RPi3A+ hat changed, no longer integrating charge circuit so changed schematic and laid out new design.
 * Finished layout for both boards, got team approval, order placed 23/3/19 with JLCPCB. ETA Friday Week 5.
+
+### Week Beginning 25/03/2019
+* Extended discussions between Josh and Chris regarding possbile case designs going forward.
