@@ -56,3 +56,4 @@
 * Chris to document discussions with Ben.
 * Software decisions to be made tonight during Discord meeting.
 
+* Be prepared for Audit 2 (Tuesday 2/4/19); clarify what outputs have been produced to date. Governence should be at a level where it can be maintained while outputs from Software and Hardware since Audit 1 should be noted. What has been achieved to date? What is yet to be done?
