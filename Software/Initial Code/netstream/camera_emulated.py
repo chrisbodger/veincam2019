@@ -1,4 +1,4 @@
-# VEINCAM Camera stream emulation script
+# VeinCam Camera stream emulation script
 # Idea from https://blog.miguelgrinberg.com/post/video-streaming-with-flask
 
 # Imports Libraries
@@ -9,7 +9,7 @@ import cv2
 from camera_base import BaseCamera
 from flask import Flask
 
-# Obtains name of current Module
+# Obtains name of current Flask Module
 app = Flask(__name__)
 
 
@@ -23,8 +23,8 @@ class Camera(BaseCamera):
     # Sets Sizes For Image Manipulation and Initialises ROI Map
     img_height, img_width = 1920, 1080
     crop_height, crop_width = 1000, 1000
-    roi_large_height, roi_large_width = 400, 300
-    roi_small_height, roi_small_width = 240, 200
+    roi_large_height, roi_large_width = 600, 600
+    roi_small_height, roi_small_width = 400, 400
     roi_map = {}
 
     # Defines Crop Ranges from Centre of Image
@@ -60,49 +60,48 @@ class Camera(BaseCamera):
     @staticmethod
     def frames():
         roi_setting = "Off"
-        frame_rate = 2
+        frame_rate = 1
         period = round(1/frame_rate, 4)
-        count = 0
+        index = 0
         while True:
 
+            # Runs at Frame Rate
             time.sleep(period)
 
-            # print('Sent image %d' % (int(time.time()) % 3))
-            # print("Contrast set in FRAMES: %d" % Camera.settings["cam_contrast"])
             if bool(Camera.settings):
                 try:
                     # print(Camera.settings["cam_contrast"])
                     roi_setting = Camera.settings["roi"]
-                except:
-                    pass
+                except KeyError:
+                    print('Camera has no ROI setting')
 
-            # Acquire Image
-            img = Camera.cv_images[count]
-            print(np.shape(img))
-            if count == 4:
-                count = 0
+            # Acquires Image
+            image = Camera.cv_images[index]
+
+            # Updates Image Index
+            if index == 4:
+                index = 0
             else:
-                count += 1
+                index += 1
 
-            img = img[Camera.crp_hstart: Camera.crp_hend, Camera.crp_wstart: Camera.crp_wend]
-            img_final = img.copy()
+            # Crops the Image and Creates a Copy
+            image = image[Camera.crop_height_start: Camera.crop_height_end,
+                          Camera.crop_width_start: Camera.crop_width_end]
+            img_final = image.copy()
 
+            # Applies Histogram Equalisation to ROI
             if roi_setting in ("Large", "Small"):
                 roi_ranges = Camera.roi_map[roi_setting]
-                # Define and apply filtering to region of interest; 'roi'
-                # https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_core/py_basic_ops/py_basic_ops.html
-                # tileGridSize row column
-                roi = img[roi_ranges["roi_height_start"] : roi_ranges["roi_height_end"], roi_ranges["roi_width_start"] : roi_ranges["roi_wend"]]
+                roi = image[roi_ranges["roi_height_start"]: roi_ranges["roi_height_end"],
+                            roi_ranges["roi_width_start"]: roi_ranges["roi_width_end"]]
 
-                clahe = cv2.createCLAHE(clipLimit=4.0, tileGridSize=(5,5)) # 14 good small window. 400, 300
-                roi = clahe.apply(roi)
-
-                #roi = cv2.equalizeHist(roi)
-                # TODO add Frangi
+                # OpenCV Histogram Equalisation
+                hist_eq = cv2.createCLAHE(clipLimit=4.0, tileGridSize=(5, 5))
+                roi = hist_eq.apply(roi)
 
                 # Overwrite the ROI into a composite final - must use copy of image
-                img_final[roi_ranges["roi_hstart"] : roi_ranges["roi_hend"], roi_ranges["roi_wstart"] : roi_ranges["roi_wend"]] = roi
+                img_final[roi_ranges["roi_height_start"]: roi_ranges["roi_height_end"],
+                          roi_ranges["roi_width_start"]: roi_ranges["roi_width_end"]] = roi
 
-            #-- Ouput
-            #yield Camera.imgs[int(time.time()) % 3]
+            # Yields Output Image
             yield cv2.imencode('.jpg', img_final)[1].tobytes()

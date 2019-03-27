@@ -2,7 +2,7 @@
     "app_name": "VeinCam",
     "cam_brightness": "60",
     "cam_contrast": "10",
-    "cam_frame_rate": "60",
+    "cam_frame_rate": "30",
     "cam_shutspeed": "100",
     "cam_state": false,
     "light_level": 4,
