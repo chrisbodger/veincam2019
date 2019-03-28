@@ -23,3 +23,6 @@
 
 ### Week Beginning 25/03/2019
 * Extended discussions between Josh and Chris regarding possbile case designs going forward.
+* Prelim case design for RPi3A+ completed. Awaiting boards for RPiZero before continuing with case design for the smaller platform. 
+* General Makerspace + specific laser induction completed by Josh, will allow use of laser cutter to cut acrylic. 
+* Shopping trip to purchase all required hardware for prototype build. 
