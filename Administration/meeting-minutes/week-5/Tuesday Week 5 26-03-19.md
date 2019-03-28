@@ -38,6 +38,21 @@
 ### Software
 * Meeting on discord tonight with Alex B, Patrick and Chris to decide on next steps regarding OpenCV and image processing.
 
+* Current State of Software Development
+  * Created software workflows to assis in development iterations
+  * Head in the direction of optimising the code to produce a higher frame rate. This may be tied to the single core limitations.
+  * Will be looking into the actual performance of the current state of code on the Pi 3A+ platform
+
+* Future Plans
+ * Modify OpenCV library to optimise boot time
+   * Progress: Identifies much of the unnecessary libraries
+ * Clean and fix development mode code for efficient testing
+   * Progress: generalised frame rate calculations and test image numbers, fixed crop and ROI sizing
+ * Investigate starting server as a thread
+   * Progress: created separate app.py to test this
+ * General code clean-up and timing optimisation
+   * Progress: looked at timings for various code functions (not all yet)
+
 ### Hardware
 * Josh to hold off currently; awaiting hardware confirmation from Ben. Also waiting on software to catch up.
 * Currently aiming to have a not completely enclosed case; top and bottom sides in acryclic, where the inside (board) can be seen.
