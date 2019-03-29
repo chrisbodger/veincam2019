@@ -16,3 +16,11 @@
 * Steps were taken towards getting the existing code's 'development' mode working on a windows machine for easy testing using the Flask server
 
 ### Week Beginning 18/03/2019
+
+
+### Week Beginning 25/03/2019
+* VeinCam software working on RPiA+
+* Begun testing the software for bottlenecks
+    * Image processing confirmed not to be a problem through testing on camera_piopencv
+    * Looks as though the python script is not the cause of poor frame rate
+    * More investigation needs to be done to find the root cause of poor frame rate
