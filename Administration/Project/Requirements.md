@@ -1,8 +1,8 @@
 # Requirements
 
-| Author        | Date Created           | Version |Completion Status  |
+| Author        | Date Created           | Version | Completion Status  |
 | :-------------: |:-------------:| :-----:| :----:|
-| Alexander Ollman   | 14/03/2019 | 1.1 | Awaiting Completion |
+| Alexander Ollman   | 14/03/2019 | 1.2 | Up to Date |
 
 ### System Requirements:
 1. Compared to other devices with similar functionality, the produced device must be relatively inexpensive.
@@ -14,17 +14,18 @@
 7. The device must be portable and mobile.
 8. The device must be reasonably easy to maintain, clean and fix in the event of failure/break/degradation.
 9. The device should display veins in as many use-cases as possible (e.g. dark-skinned, tattooed, hairy). (Stretch deliverable)
-10. The device is manufacturable to be delivered to a commercial market. (Stretch deliverable)
+10. The device is manufacturable to ***have the potential*** to be put to a commercial market. (Stretch deliverable)
 
 ### Requirements of Hardware Team
 1. Redesign device enclosure(s) to accomodate Raspberry Pi A+ and Raspberry Pi Zero.
 2. Design required printed circuit board assemblies to succesfully integrate all required functionality. 
 3. Ensure Design for Manufacturing and Assembly is considered during the above two steps.
+4. Full Bill of Materials ready for client. 
 
 ### Requirements of Software Team
 1. Modify current image processing code to be more efficient.
 2. Improve start up time.
 3. Clean up front end user interface.
 4. Research most optimal programming language for image processing (C++ vs Python)
-5. Introduce photo image processing on top of the equalised image to detect veins within relative bounds.
+5. Introduce photo image processing on top of the equalised image to detect veins within relative bounds (Stretch Deliverable)
 
