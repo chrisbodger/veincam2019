@@ -26,3 +26,8 @@
 * Prelim case design for RPi3A+ completed. Awaiting boards for RPiZero before continuing with case design for the smaller platform. 
 * General Makerspace + specific laser induction completed by Josh, will allow use of laser cutter to cut acrylic. 
 * Shopping trip to purchase all required hardware for prototype build. 
+* Test fitting and changes to mechanicals to account for differences in models vs actual.
+
+### Week Beginning 1/04/2019
+* Manufacturing of acrylic enclosure including updating lens mounting.
+* Assembly of PCA's and testing, all appear to be functioning nominally. 
