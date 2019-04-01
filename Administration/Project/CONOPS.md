@@ -3,7 +3,7 @@
 ## Version History
 | Version | Description | Audit Version |
 | --- | --- | --- |
-| 1.2 | Initial Document | Audit 1 |
+| 2.0 | Mid-Term Document | Audit 2 |
 
 ## Table of Contents
 * [Project Vision](#project-vision)
@@ -36,7 +36,7 @@ VeinCam is a device that enables the visualisation of the superficial veinous sy
 
 After recieving incredibly positive feedback during the final presentation of VeinCam, from both educational and medical professional's alike, the decision was made to continue the VeinCam project into 2019. The vision for this next phase of development is to produce commercially-viable DIY kits that remains affordable and convenient to market to educators for construction and development within a classroom environment.  
 
-There will be two iterations of the VeinCam kit: VeinCam and VeinCam Plus.
+Dependent on software performance testing to be performed towards the end of the project, two iterations of the VeinCam kit are planned: VeinCam and VeinCam Plus.
 
 ### Value Proposition
 Our VeinCam device will help students better understand the human body by augmenting visualisation of upper limb veins. It will provide students with an interactive expereience and fun way to learn about the venous sites of the body. At an educational level, this has never been done before as commerically available products with similar capabilites are far beyond a price point that would be considered by educators. Our value proposition is to provide this experience and funcionality at a fraction of the cost. 
@@ -182,10 +182,14 @@ ANU ENGN4221 course tutor for Semester 1 2019. Tasked with formally organising a
 * To a reasonable extent, assist the project team with the progress of the project, including answering relevant and reasonable questions, and providing constructive, actionable and accurate feedback, particularly at times of project audits and during tutorial sessions.
 * Reply to correspondence (email) in a timely fashion, and grade formal assignments fairly and appropriate to the quality of the project.
 
-### Course Convenor
+### Course Convenors
+Ankur Sharma (ankur.sharma@anu.edu.au)
+
+ANU ENGN4221 course convenor for Semester 1 2019. The course convenor is the overall authority and organiser for this course, and hence this project as a subdivison of the course.
+
 Chris Browne (chris.browne@anu.edu.au)
 
-ANU ENGN4221 course convenor for Semester 1 2019. The course convenor is the overall authority and organiser for this course, and hence the projects that run through this course.
+Former ANU ENGN4221 course convenor for Semester 1 2019. Advisor to the primary course convener.
 
 #### Responsibilities of the project team to the course convenor
 * Same as those applying to the course tutor.
@@ -272,27 +276,31 @@ A kit of compiled components ready for the client for commercial distribution.
 Milestones are subject to change as the project evolves. Changes will be made to this document to reflect project's new objectives.  
 
 ### Work Breakdown Structure
-1. Requirements Analysis
-   1.1. Review PoC
-   1.2. Perform risk analysis
-   1.3. Brainstorm requirements (in-house)
-   1.4. Develop requirements with client
-   1.5. Finalise requirements
-2. Prototyping
-   2.1. Design hardware
-   2.2. Manufacture and construct hardware
-   2.3. Design baseline software
-   2.4. Integrate software
-   2.5. Update software with stretch deliverables
-3. Validation & Verification
-   3.1. Test prototype in-house
-   3.2. Conduct performance review
-4. Documentation
-   4.1. Write ConOps v1
-   4.2. Update ConOps v2
-   4.3. Create "How-to" guide
-   4.4. Create poster
-   4.5. Organise repository
+| Task | Time Allocation | Responsible Team(s)/Third Party | Status |
+| --- | --- | --- |
+| 1. Requirements Analysis  |  | | |
+|   1.1. Review PoC   | 3 hours | All Teams | Complete |
+|   1.2. Perform risk analysis  | 1 hours | All Teams | Complete |
+|   1.3. Brainstorm requirements (in-house)   | 1 hour | Each Team Individually, Primary Client | Complete |
+|   1.4. Develop requirements with client | 1 hour | All Teams, Primary Client | Complete |
+|   1.5. Finalise requirements  | 2 hours | Each Team Individually| On going | 
+| 2. Prototyping  | | | |
+|   2.1. Design new commercial prototype  | 6 - 10 hours | Hardware | Complete |
+|   2.2. Manufacture and construct newest prototype | 4 - 8 hours | Hardware | In Progress |
+|   2.3. Design base software in line with new requirements  | 6 - 10 hours | Software | Complete |
+|   2.4. Integrate software  | 2 hours | Software | In Progress |
+|   2.5. Update software with stretch deliverables  | 4 - 8 hours | Hardware | Awaiting Completion (Dependent on 2.3, 2.4) |
+| 3. Validation & Verification   | | | |
+|   3.1. Test prototype in-house  | 4 hours | All Teams | In Progress |
+|   3.2. Conduct performance review  | 2 hours | All Teams (Primarily Governance) | Awaiting Completion (Dependent on 3.1) |
+|   3.3. Finalize Software  | 2 - 6 hours | Software | Awaiting Completion (Dependent on 3.1) |
+|   3.4. FInalize Bill of Materials | 2 hours | Hardware | Awaiting Completion (Dependent on 3.1) |
+| 4. Documentation  | | | |
+|   4.1. Write ConOps v1  | 4 hours | Governace | Complete |
+|   4.2. Update ConOps to version 2  | 2 hours | Governance | Complete |
+|   4.3. Create poster  | 2 - 5 hours | Governance | Awaiting Completion (Dependent on 3) |
+|   4.4. Keep Repository Organised  | 3 - 8 hours | Governance | On going |
+
 
 ### Decision Making and Conflict Resolution
 Decision making will be by consensus in consultation with the client. When consensus cannot be reached the project team will seek advice from other stakeholders depending on the nature of the decision. For further detail please refer to the [Decision Log](https://github.com/chrisbodger/veincam2019/blob/master/Administration/Project/Decision-Log.md).
