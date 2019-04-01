@@ -278,28 +278,28 @@ Milestones are subject to change as the project evolves. Changes will be made to
 ### Work Breakdown Structure
 | Task | Time Allocation | Responsible Team(s)/Third Party | Status |
 | --- | --- | --- | --- |
-| 1. Requirements Analysis  |  | | |
-|   1.1. Review PoC   | 3 hours | All Teams | Complete |
-|   1.2. Perform risk analysis  | 1 hours | All Teams | Complete |
-|   1.3. Brainstorm requirements (in-house)   | 1 hour | Each Team Individually, Primary Client | Complete |
-|   1.4. Develop requirements with client | 1 hour | All Teams, Primary Client | Complete |
-|   1.5. Finalise requirements  | 2 hours | Each Team Individually| On going | 
-| 2. Prototyping  | | | |
-|   2.1. Design new commercial prototype  | 6 - 10 hours | Hardware | Complete |
-|   2.2. Manufacture and construct newest prototype | 4 - 8 hours | Hardware | In Progress |
-|   2.3. Design base software in line with new requirements  | 6 - 10 hours | Software | Complete |
-|   2.4. Integrate software  | 2 hours | Software | In Progress |
-|   2.5. Update software with stretch deliverables  | 4 - 8 hours | Hardware | Awaiting Completion (Dependent on 2.3, 2.4) |
-| 3. Validation & Verification   | | | |
-|   3.1. Test prototype in-house  | 4 hours | All Teams | In Progress |
-|   3.2. Conduct performance review  | 2 hours | All Teams (Primarily Governance) | Awaiting Completion (Dependent on 3.1) |
-|   3.3. Finalize Software  | 2 - 6 hours | Software | Awaiting Completion (Dependent on 3.1) |
-|   3.4. FInalize Bill of Materials | 2 hours | Hardware | Awaiting Completion (Dependent on 3.1) |
-| 4. Documentation  | | | |
-|   4.1. Write ConOps v1  | 4 hours | Governace | Complete |
-|   4.2. Update ConOps to version 2  | 2 hours | Governance | Complete |
-|   4.3. Create poster  | 2 - 5 hours | Governance | Awaiting Completion (Dependent on 3) |
-|   4.4. Keep Repository Organised  | 3 - 8 hours | Governance | On going |
+| ***1. Requirements Analysis***  |  | | |
+|  -- 1.1. Review PoC   | 3 hours | All Teams | Complete |
+|  -- 1.2. Perform risk analysis  | 1 hours | All Teams | Complete |
+|  -- 1.3. Brainstorm requirements (in-house)   | 1 hour | Each Team Individually, Primary Client | Complete |
+|  -- 1.4. Develop requirements with client | 1 hour | All Teams, Primary Client | Complete |
+|  -- 1.5. Finalise requirements  | 2 hours | Each Team Individually| On going | 
+| ***2. Prototyping***  | | | |
+|  -- 2.1. Design new commercial prototype  | 6 - 10 hours | Hardware | Complete |
+|  -- 2.2. Manufacture and construct newest prototype | 4 - 8 hours | Hardware | In Progress |
+|  -- 2.3. Design base software in line with new requirements  | 6 - 10 hours | Software | Complete |
+|  -- 2.4. Integrate software  | 2 hours | Software | In Progress |
+|  -- 2.5. Update software with stretch deliverables  | 4 - 8 hours | Hardware | Awaiting Completion (Dependent on 2.3, 2.4) |
+| ***3. Validation & Verification***   | | | |
+|  -- 3.1. Test prototype in-house  | 4 hours | All Teams | In Progress |
+|  -- 3.2. Conduct performance review  | 2 hours | All Teams (Primarily Governance) | Awaiting Completion (Dependent on 3.1) |
+|  -- 3.3. Finalize Software  | 2 - 6 hours | Software | Awaiting Completion (Dependent on 3.1) |
+|  -- 3.4. FInalize Bill of Materials | 2 hours | Hardware | Awaiting Completion (Dependent on 3.1) |
+| ***4. Documentation***  | | | |
+|  -- 4.1. Write ConOps v1  | 4 hours | Governace | Complete |
+|  -- 4.2. Update ConOps to version 2  | 2 hours | Governance | Complete |
+|  -- 4.3. Create poster  | 2 - 5 hours | Governance | Awaiting Completion (Dependent on 3) |
+|  -- 4.4. Keep Repository Organised  | 3 - 8 hours | Governance | On going |
 
 
 ### Decision Making and Conflict Resolution
