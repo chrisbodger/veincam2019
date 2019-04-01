@@ -277,7 +277,7 @@ Milestones are subject to change as the project evolves. Changes will be made to
 
 ### Work Breakdown Structure
 | Task | Time Allocation | Responsible Team(s)/Third Party | Status |
-| --- | --- | --- |
+| --- | --- | --- | --- |
 | 1. Requirements Analysis  |  | | |
 |   1.1. Review PoC   | 3 hours | All Teams | Complete |
 |   1.2. Perform risk analysis  | 1 hours | All Teams | Complete |
