@@ -34,7 +34,7 @@
 ## Project Vision
 VeinCam is a device that enables the visualisation of the superficial veinous system. It's primary purpose is to educate curious minds on the inner workings of the human body. The current VeinCam iteration, submitted as a ANU Engineering Capstone Project in late 2018, is based on the 2017 [Venenfinder Hackaday project](https://hackaday.io/project/26158-assistance-system-for-vein-detection). The objective of the VeinCam project was to extend the Venenfinder to become smaller, portable, more afforable and easy to build by young students and inquisitive minds.
 
-After recieving incredibly positive feedback during the final presentation of VeinCam, from both educational and medical professional's alike, the decision was made to continue the VeinCam project into 2019. The vision for this next phase of development is to produce commercially-viable DIY kits that remains affordable and convenient to market to educators for construction and development within a classroom environment.  
+After recieving incredibly positive feedback during the final presentation of VeinCam, from both educational and medical professional's alike, the decision was made to continue the VeinCam project into 2019. The vision for this next phase of development is to produce a Bill of Materials and finalised software to handover to the primary client. The quality of the Bill of Materials and software should be of a standard where the primary client can create commercially-viable DIY kits that remains affordable and convenient to market to educators, for construction and development within a classroom environment. As such, our goal of this project is to create a product that is professional and of a commercial standard.  
 
 Dependent on software performance testing to be performed towards the end of the project, two iterations of the VeinCam kit are planned: VeinCam and VeinCam Plus.
 
@@ -285,7 +285,7 @@ Milestones are subject to change as the project evolves. Changes will be made to
 |  -- 1.4. Develop requirements with client | 1 hour | All Teams, Primary Client | Complete |
 |  -- 1.5. Finalise requirements  | 2 hours | Each Team Individually| On going | 
 | ***2. Prototyping***  | | | |
-|  -- 2.1. Design new commercial prototype  | 6 - 10 hours | Hardware | Complete |
+|  -- 2.1. Design new prototype  | 6 - 10 hours | Hardware | Complete |
 |  -- 2.2. Manufacture and construct newest prototype | 4 - 8 hours | Hardware | In Progress |
 |  -- 2.3. Design base software in line with new requirements  | 6 - 10 hours | Software | Complete |
 |  -- 2.4. Integrate software  | 2 hours | Software | In Progress |
