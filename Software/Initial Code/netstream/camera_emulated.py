@@ -64,7 +64,6 @@ class Camera(BaseCamera):
         period = round(1/frame_rate, 4)
         index = 0
         while True:
-
             # Runs at Frame Rate
             time.sleep(period)
 

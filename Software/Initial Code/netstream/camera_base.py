@@ -1,5 +1,7 @@
 import time
 import threading
+import io
+import numpy as np
 try:
     from greenlet import getcurrent as get_ident
 except ImportError:
@@ -64,6 +66,11 @@ class BaseCamera(object):
             # start background frame thread
             BaseCamera.thread = threading.Thread(target=self._thread)
             BaseCamera.thread.start()
+            BaseCamera.test = io.BytesIO()
+            print(type(BaseCamera.test))
+            BaseCamera.bytes = bytes(BaseCamera.test)
+            print(type(BaseCamera.bytes))
+
 
             # wait until frames are available
             while self.get_frame() is None:
@@ -91,6 +98,7 @@ class BaseCamera(object):
         print('Starting camera thread.')
         frames_iterator = cls.frames()
         for frame in frames_iterator:
+            print(np.shape(list(frame)))
             BaseCamera.frame = frame
             BaseCamera.event.set()  # send signal to clients
             time.sleep(0)

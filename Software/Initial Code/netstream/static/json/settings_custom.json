@@ -4,7 +4,7 @@
     "cam_contrast": "10",
     "cam_frame_rate": "30",
     "cam_shutspeed": "100",
-    "cam_state": false,
+    "cam_state": true,
     "light_level": 4,
     "light_wavelength": "850nm",
     "roi": "Large"

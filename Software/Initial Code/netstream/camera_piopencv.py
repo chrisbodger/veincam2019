@@ -77,10 +77,8 @@ class Camera(BaseCamera):
         # These changes can be EXPENSIVE, so only adjust if they are different!
         roi_setting = "Off"
 
-        with picamera.PiCamera(
-            resolution = (Camera.res_width, Camera.res_height)
-            , framerate = 20
-        ) as camera:
+        # Initiates Camera (frame rate must be between 40 and 90 fps for resolution)
+        with picamera.PiCamera(resolution=(Camera.res_width, Camera.res_height), framerate=60) as camera:
 
             # Initiate array to capture greyscale data from a YUV stream
             # https://picamera.readthedocs.io/en/latest/recipes2.html#rapid-capture-and-processing
@@ -117,7 +115,7 @@ class Camera(BaseCamera):
                 # cv2.imwrite(fname, img) 
  
                 # Crop it. Overwrite to minimise memory use
-                img = img[Camera.crp_hstart : Camera.crp_hend, Camera.crp_wstart : Camera.crp_wend] 
+                img = img[Camera.crp_hstart: Camera.crp_hend, Camera.crp_wstart: Camera.crp_wend]
                 img_final = img.copy()
 
                 if (roi_setting in ("Large","Small")):

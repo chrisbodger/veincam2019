@@ -266,7 +266,6 @@ def video_feed(increment):
     camera = Camera()
     global settings_cache
     camera.update_settings(settings_cache)  # TODO Flow through to object
-
     return Response(gen(camera),
                     mimetype='multipart/x-mixed-replace; boundary=frame')    
 
@@ -307,7 +306,7 @@ def blink_LEDs():
 #---
 #Start the Flask server upon script run to IP address, port 8000.
 if __name__ == '__main__':
-    blink_LEDs()
+    # blink_LEDs()
     app.run(host='0.0.0.0', port='8080', debug=DEBUG, threaded=True)
     
 # Note, to run this file in terminal > python app.py  or python3 app.py
