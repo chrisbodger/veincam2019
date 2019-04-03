@@ -20,7 +20,7 @@
     * Using this the cropping and histogram image regions were adjusted for better testing
     * Variables such as frame rate and histogram equalisation values were generalised for easier testing as well
 * Brainstorming took place discussing how a new front end might look and whether a small loading screen would be beneficial
-    * An example loading gif was made with external to be implemented later on
+    * An example loading gif was made with external help to be implemented later on
 
 
 ### Week Beginning 25/03/2019
