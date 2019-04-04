@@ -7,3 +7,4 @@
 | 19/3/2019 | VeinCam Built-in Battery | Expressed concern regarding plans for built in battery, citing increased cost and difficulty in the project. Information passed onto the team for design rectifications  | Yes |
 | 24/3/2019 | Post Audit 1 Feedback Discussion | Phone Call to discuss the audit feedback, raising and resolving several concerns in the feedback. Feedback and input to be discussed in weekly team meeting | Yes |
 | 2/4/2019 | Client Meeting | Arranged for a time this coming weekend to have a milestone meeting with the client, and to address Audit 2 Feedback and discuss options going forward. | Yes |
+| 4/4/2019 | New Part Arrival | Client contacted the team to make them aware that more parts had in fact arrived and is ready for collection. A team member will collect later that day. | Yes |
