@@ -7,7 +7,6 @@
 ### Feedback
 * Ben has noted thinking of two devices. Evident that we are aiming to prove use case of having two soon. Idea is to decide as a group, but determine which version provides best performance and just go with that.
 
-
 ### Hardware
 * Josh still working on both hardware platforms until software is finalised, then we can hit build on one.
 * Thinking of continuing with acryclic cases.
@@ -17,6 +16,8 @@
 * Weve currently laser cut out a hole for the camera; consideration for taking care to not impact the camera lens.
 * Ben - Current acrylic; consider shape of cut out of acrylic piece; could go a square with rounded corners or the like to reduce the material wasted.
 * Ben - remapping of pins given new circuit board layout; the Pi has pulse width modulation (PWM), theres only a few a number of pins the map to PWM. Ben wanted to check that this was the case. Josh has done so 
+
+* Licenses are all compatible with GPLV3; this is to be noted in repository.
 
 ### Software
 * Main goal was to improve frame rate; achieved and done by changing the way the image  was captured and sent to the server.
@@ -36,6 +37,8 @@
 * Ben has said documentation of goals is paramount.
 * For poster presentation, we can kill two birds with one stone and have the poster organised to be used for our presentation and Ben's medical conference.
 
+
 ### Actionables
 * To go through feedback from Audit 2 with Ben at next convenience.
 * Alex to coordinate with Bonython Primary School and secure meeting.
+* To seek external council form Steph (past team member).
