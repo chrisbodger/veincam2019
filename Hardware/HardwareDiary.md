@@ -31,3 +31,6 @@
 ### Week Beginning 1/04/2019
 * Manufacturing of acrylic enclosure including updating lens mounting.
 * Assembly of PCA's and testing, all appear to be functioning nominally. 
+
+### Week Beginning 8/04/2019
+* Laid out v2 of the VeinCam zero to better fit a custom cut acrylic case instead of the official RPi case. 
