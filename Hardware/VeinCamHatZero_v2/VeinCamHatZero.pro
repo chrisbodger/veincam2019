@@ -1,4 +1,4 @@
-update=8/04/2019 14:35:42
+update=11/04/2019 15:21:15
 version=1
 last_client=kicad
 [cvpcb]
@@ -31,7 +31,7 @@ version=1
 PageLayoutDescrFile=
 LastNetListRead=VeinCamHatZero.net
 CopperLayerCount=2
-BoardThickness=1
+BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
