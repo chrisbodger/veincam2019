@@ -33,4 +33,6 @@
 * Assembly of PCA's and testing, all appear to be functioning nominally. 
 
 ### Week Beginning 8/04/2019
-* Laid out v2 of the VeinCam zero to better fit a custom cut acrylic case instead of the official RPi case. 
+* Laid out v2 of the VeinCam Zero to better fit a custom cut acrylic case instead of the official RPi case. 
+* Begun design of v2 enclosure for the VeinCam Zero
+* Changed VeinCam Plus enclosure to decrease size of IR acrylic required. 

@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:VeinCamHat-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -273,48 +273,24 @@ Status LEDs
 $Comp
 L Device:R R1
 U 1 1 5D25BF6E
-P 4100 1800
-F 0 "R1" V 4200 1750 50  0000 L CNN
-F 1 "1k" V 4000 1750 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4030 1800 50  0001 C CNN
-F 3 "~" H 4100 1800 50  0001 C CNN
-	1    4100 1800
-	0    -1   -1   0   
+P 4150 1900
+F 0 "R1" V 4050 1850 50  0000 L CNN
+F 1 "1k" V 4250 1850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4080 1900 50  0001 C CNN
+F 3 "~" H 4150 1900 50  0001 C CNN
+	1    4150 1900
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:LED D1
 U 1 1 5D25BF75
-P 4450 1800
-F 0 "D1" H 4500 1700 50  0000 R CNN
-F 1 "GREEN LED" H 4650 1900 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 4450 1800 50  0001 C CNN
-F 3 "~" H 4450 1800 50  0001 C CNN
-	1    4450 1800
+P 4550 1900
+F 0 "D1" H 4600 1800 50  0000 R CNN
+F 1 "GREEN LED" H 4750 2000 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 4550 1900 50  0001 C CNN
+F 3 "~" H 4550 1900 50  0001 C CNN
+	1    4550 1900
 	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR04
-U 1 1 5D25BF7C
-P 4850 1850
-F 0 "#PWR04" H 4850 1600 50  0001 C CNN
-F 1 "GND" H 4855 1677 50  0000 C CNN
-F 2 "" H 4850 1850 50  0001 C CNN
-F 3 "" H 4850 1850 50  0001 C CNN
-	1    4850 1850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4300 1800 4250 1800
-$Comp
-L Connector:Raspberry_Pi_2_3 J1
-U 1 1 5D30B49A
-P 1850 2550
-F 0 "J1" H 1200 3900 50  0000 C CNN
-F 1 "Raspberry_Pi_2_3" H 1250 3800 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 1850 2550 50  0001 C CNN
-F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 1850 2550 50  0001 C CNN
-	1    1850 2550
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1450 3850 1450 3900
@@ -408,65 +384,40 @@ LED_940
 Wire Wire Line
 	10450 2350 10450 2750
 Connection ~ 10450 2350
-Text Label 3100 2250 2    50   ~ 0
+Text Label 600  3150 0    50   ~ 0
 LED_READY
 Wire Wire Line
-	3100 2250 2650 2250
+	600  3150 1050 3150
 Wire Wire Line
-	600  1650 1050 1650
-Text Label 600  1650 0    50   ~ 0
-LED_BOOT
-Text Label 3500 1800 0    50   ~ 0
+	600  2350 1050 2350
+Text Label 600  2350 0    50   ~ 0
+nLED_BOOT
+Text Label 3500 1900 0    50   ~ 0
 LED_READY
-Text Label 3500 2250 0    50   ~ 0
-LED_BOOT
-Wire Wire Line
-	3500 1800 3950 1800
-Wire Wire Line
-	4850 1800 4850 1850
-Wire Wire Line
-	4600 1800 4850 1800
+Text Label 3500 2550 0    50   ~ 0
+nLED_BOOT
 $Comp
 L Device:R R2
 U 1 1 5D6666C3
-P 4100 2250
-F 0 "R2" V 4200 2200 50  0000 L CNN
-F 1 "1k" V 4000 2200 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4030 2250 50  0001 C CNN
-F 3 "~" H 4100 2250 50  0001 C CNN
-	1    4100 2250
-	0    -1   -1   0   
+P 4100 2800
+F 0 "R2" H 4150 2850 50  0000 L CNN
+F 1 "1k5" H 4150 2750 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4030 2800 50  0001 C CNN
+F 3 "~" H 4100 2800 50  0001 C CNN
+	1    4100 2800
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D2
 U 1 1 5D6666CA
-P 4450 2250
-F 0 "D2" H 4500 2150 50  0000 R CNN
-F 1 "RED LED" H 4650 2350 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 4450 2250 50  0001 C CNN
-F 3 "~" H 4450 2250 50  0001 C CNN
-	1    4450 2250
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR05
-U 1 1 5D6666D1
-P 4850 2300
-F 0 "#PWR05" H 4850 2050 50  0001 C CNN
-F 1 "GND" H 4855 2127 50  0000 C CNN
-F 2 "" H 4850 2300 50  0001 C CNN
-F 3 "" H 4850 2300 50  0001 C CNN
-	1    4850 2300
+P 4400 2550
+F 0 "D2" H 4450 2650 50  0000 R CNN
+F 1 "RED LED" H 4650 2450 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 4400 2550 50  0001 C CNN
+F 3 "~" H 4400 2550 50  0001 C CNN
+	1    4400 2550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4300 2250 4250 2250
-Wire Wire Line
-	3500 2250 3950 2250
-Wire Wire Line
-	4850 2250 4850 2300
-Wire Wire Line
-	4600 2250 4850 2250
 $Comp
 L VeinCam_Symbols:SFH7252 D3
 U 1 1 5C89C23B
@@ -536,12 +487,10 @@ $EndComp
 NoConn ~ 1050 1750
 NoConn ~ 1050 1950
 NoConn ~ 1050 2050
-NoConn ~ 1050 2350
 NoConn ~ 1050 2450
 NoConn ~ 1050 2550
 NoConn ~ 1050 2950
 NoConn ~ 1050 3050
-NoConn ~ 1050 3150
 NoConn ~ 1050 3250
 NoConn ~ 2650 3050
 NoConn ~ 2650 2950
@@ -576,8 +525,6 @@ F 3 "" H 850 7450 50  0001 C CNN
 $EndComp
 NoConn ~ 1050 2850
 NoConn ~ 2650 3250
-NoConn ~ 1950 1250
-NoConn ~ 2050 1250
 NoConn ~ 12400 3300
 NoConn ~ 1050 2750
 Text Notes 750  6300 0    100  ~ 0
@@ -618,4 +565,85 @@ F 3 "~" H 10550 2950 50  0001 C CNN
 	2    10350 2950
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:+3V3 #PWR0101
+U 1 1 5CB9F567
+P 2050 1150
+F 0 "#PWR0101" H 2050 1000 50  0001 C CNN
+F 1 "+3V3" H 2065 1323 50  0000 C CNN
+F 2 "" H 2050 1150 50  0001 C CNN
+F 3 "" H 2050 1150 50  0001 C CNN
+	1    2050 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0103
+U 1 1 5CBA5562
+P 4900 2500
+F 0 "#PWR0103" H 4900 2350 50  0001 C CNN
+F 1 "+3V3" H 4915 2673 50  0000 C CNN
+F 2 "" H 4900 2500 50  0001 C CNN
+F 3 "" H 4900 2500 50  0001 C CNN
+	1    4900 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 2500 4900 2550
+Wire Wire Line
+	4550 2550 4900 2550
+Wire Wire Line
+	4700 1900 4900 1900
+Wire Wire Line
+	4100 2950 4100 3000
+$Comp
+L power:GND #PWR0104
+U 1 1 5CBB9F2E
+P 4100 3000
+F 0 "#PWR0104" H 4100 2750 50  0001 C CNN
+F 1 "GND" H 4105 2827 50  0000 C CNN
+F 2 "" H 4100 3000 50  0001 C CNN
+F 3 "" H 4100 3000 50  0001 C CNN
+	1    4100 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Raspberry_Pi_2_3 J1
+U 1 1 5D30B49A
+P 1850 2550
+F 0 "J1" H 1200 3900 50  0000 C CNN
+F 1 "Raspberry_Pi_2_3" H 1250 3800 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 1850 2550 50  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 1850 2550 50  0001 C CNN
+	1    1850 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 1150 2050 1250
+NoConn ~ 1950 1250
+$Comp
+L power:GND #PWR0102
+U 1 1 5CC02B04
+P 4900 1950
+F 0 "#PWR0102" H 4900 1700 50  0001 C CNN
+F 1 "GND" H 4905 1777 50  0000 C CNN
+F 2 "" H 4900 1950 50  0001 C CNN
+F 3 "" H 4900 1950 50  0001 C CNN
+	1    4900 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 1900 4900 1950
+Wire Wire Line
+	3500 1900 4000 1900
+Wire Wire Line
+	4300 1900 4400 1900
+Wire Wire Line
+	3500 2550 4100 2550
+Wire Wire Line
+	4100 2650 4100 2550
+Connection ~ 4100 2550
+Wire Wire Line
+	4100 2550 4250 2550
+NoConn ~ 1050 1650
+NoConn ~ 2650 2250
 $EndSCHEMATC
