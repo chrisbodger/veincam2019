@@ -4,17 +4,18 @@ import io
 import numpy as np
 try:
     from greenlet import getcurrent as get_ident
+    print(1)
 except ImportError:
     try:
         from thread import get_ident
+        print(2)
     except ImportError:
         from _thread import get_ident
+        print(3)
 
 
 class CameraEvent:
-    """An Event-like class that signals all active clients when a new frame is
-    available.
-    """
+    """An Event-like class that signals all active clients when a new frame is available."""
     def __init__(self):
         self.events = {}
 
@@ -54,34 +55,29 @@ class CameraEvent:
 
 
 class BaseCamera(object):
-    thread = None  # background thread that reads frames from camera
     frame = None  # current frame is stored here by background thread
     last_access = 0  # time of last client access to the camera
     event = CameraEvent()
 
     def __init__(self):
-        if BaseCamera.thread is None:
-            BaseCamera.last_access = time.time()
+        BaseCamera.last_access = time.time()
 
-            # start background frame thread
-            BaseCamera.thread = threading.Thread(target=self._thread)
-            BaseCamera.thread.start()
-            BaseCamera.test = io.BytesIO()
-            print(type(BaseCamera.test))
-            BaseCamera.bytes = bytes(BaseCamera.test)
-            print(type(BaseCamera.bytes))
+        # start background frame thread
+        BaseCamera.thread = threading.Thread(target=self._thread)
+        BaseCamera.thread.start()
+        BaseCamera.test = io.BytesIO()
+        print(type(BaseCamera.test))
+        BaseCamera.bytes = bytes(BaseCamera.test)
+        print(type(BaseCamera.bytes))
 
 
-            # wait until frames are available
-            while self.get_frame() is None:
-                time.sleep(0)
+        # wait until frames are available
+        while self.get_frame() is None:
+            time.sleep(0)
 
     def get_frame(self):
         """Return the current camera frame."""
         BaseCamera.last_access = time.time()
-        #print("Triggered %f" % (BaseCamera.last_access))
-
-        # wait for a signal from the camera thread
         BaseCamera.event.wait()
         BaseCamera.event.clear()
 
@@ -109,4 +105,3 @@ class BaseCamera(object):
                 frames_iterator.close()
                 print('Stopping camera thread due to inactivity.')
                 break
-        BaseCamera.thread = None

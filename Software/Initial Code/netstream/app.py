@@ -1,6 +1,9 @@
-import os, time
-import threading, requests
-import psutil # To gain CPU stats of pi
+import os
+import requests
+import threading
+import time
+
+import psutil  # To gain CPU stats of pi
 from flask import Flask, render_template, request, Response, json
 
 # DELETE: Check camera works: https://picamera.readthedocs.io/en/release-1.13/quickstart.html
