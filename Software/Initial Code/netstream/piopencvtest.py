@@ -40,51 +40,6 @@ class CameraEvent:
         self.events[get_ident()][0].clear()
 
 
-class BaseCamera:
-    thread = None
-    frame = None
-    last_access = 0
-    event = CameraEvent()
-
-    def __init__(self):
-        if BaseCamera.thread is None:
-            BaseCamera.last_access = time.time()
-            BaseCamera.thread = threading.Thread(target=self._thread)
-            BaseCamera.thread.start()
-            BaseCamera.test = io.BytesIO()
-            print(type(BaseCamera.test))
-            BaseCamera.bytes = bytes(BaseCamera.test)
-            print(type(BaseCamera.bytes))
-
-            while self.get_frame() is None:
-                time.sleep(0)
-
-    def get_frame(self):
-        BaseCamera.last_access = time.time()
-        BaseCamera.event.wait()
-        BaseCamera.event.clear()
-        return BaseCamera.frame
-
-    @staticmethod
-    def frames():
-        raise RuntimeError('Must be implemented by subclasses.')
-
-    @classmethod
-    def _thread(cls):
-        print('Starting Camera Thread.')
-        frames_iterator = cls.frames()
-        for frame in frames_iterator:
-            print(np.shape(list(frame)))
-            BaseCamera.frame = frame
-            BaseCamera.event.set()
-            time.sleep(0)
-            if time.time() - BaseCamera.last_access > 2:
-                frames_iterator.close()
-                print('Stopping camera thread due to inactivity.')
-                break
-        BaseCamera.thread = None
-
-
 class StreamOutput():
     def __init__(self):
         self.frame = None
@@ -96,7 +51,6 @@ class StreamOutput():
 
 
 class Camera:
-
     def __init__(self, settings_cache):
         self.settings = settings_cache
         self.res_height = 720
@@ -105,6 +59,30 @@ class Camera:
         self.roi = np.zeros([2, 4])
         self.roi[0] = self.crop_size(400, 400)
         self.roi[1] = self.crop_size(250, 250)
+        self.last_access = time.time()
+        self.thread = threading.Thread(target=self._thread)
+        self.thread.start()
+        self.test = io.BytesIO()
+        self.bytes = bytes(self.test)
+        self.event = CameraEvent()
+
+    def get_frame(self):
+        self.last_access = time.time()
+        self.event.wait()
+        self.event.clear()
+        return self.frame
+
+    def _thread(self):
+        print('Starting Camera Thread.')
+        frames_iterator = self.frames()
+        for frame in frames_iterator:
+            print(np.shape(list(frame)))
+            self.frame = frame
+            self.event.set()
+            if bool(self.settings):
+                if not self.settings["cam_state"]:
+                    print('Stopping Camera Thread')
+                    break
 
     def crop_size(self, w, h):
         crop_points = []
