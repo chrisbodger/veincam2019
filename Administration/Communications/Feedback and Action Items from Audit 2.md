@@ -1,36 +1,19 @@
 # Feedback from Audit 2:
+
+### Overall Feedback
+
+Very positive. Our output, teamwork, internal and external communication and repository were all highly commended. The changes made from the feedback given in Audit 1 is visible and the impact on our project is clear. Definition in the Decision Log, further outlining how we communicate internally and with the client, and more making efforts to reach out to potential investors and parties which could provide useful feedback were the main themes of things to improve upon. 
+
 ### Audit Presentation
-* Presentation of Hardware/Software was too technical and esoteric.
+* Presentation of Hardware/Software was better suited for a general audience. 
 
 ### Governance
-* Continue to keep documentation up to date and at a high quality.
+* Get governance and hardware members involved in software development to speed up process.
+   - Probably don't need to given current software progress. Alex may get involved in tidying up front end and presenting   website. 
 
-* Repository has minor technical issues.
-  * Decision log can be accessed from repository but not from Conops.
-  * An introduction to Veincam on the landing page is lacking. This will help uninvolved individuals to better familiarise themselves with the project.
+* Add justification, method comparison and risk analysis for each major decision made based on the ConOps risk analysis matrix. 
 
-* Requirements are currently too high level and should aim to be broken down beyond merely Goverance, Software and Hardware categorisation.
 
-* Define weekly goals and/or deliverables, as current goals are quite broad. While goals/deliverable/actionables presented in meeting minutes are evidently related to the overall project requirements, these should be broken down as much as possible.
-
-* Greater detail in the WBS and milestones are needed. This may include the addiation of timelines, noting the division of tasks and the like.
-
-* Proposal for use of Gantt charts to aid in tracking of project.
-
-* Weekly outcomes should be clearly documented.
-
-* There is a lack of clarity regarding the difference between both proposed versions of Veincam.
-  * Clarification is needed regarding the difference in requirements between the Zero and Plus models.
-  * More dialogue with Ben may be required.
-  
-* Validation of products' commercial potential and how commercialization may occur should be achieved.
-  * Gauge the interest from other clients and parties to determine further product deliverables beyond what Ben wants.
-  * Connect with educational/medical parties to gauge interest and get input.
-  * Define metrics for commercialization.
-  
-* Deal with ethics approval to prompt testing.
-
-* Formal reviews of decisions made by sub-teams should be undertaken so that the whole team understands and agrees with said decisions and the progress of team divisions. Better discourse and debriefing regarding decisions must be achieved.
 
 * Decision log to be improved.
   * The decision log needs to be added to, with minor decisions also being noted.
