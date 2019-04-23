@@ -1,4 +1,4 @@
-# Feedback from Audit 1:
+# Feedback from Audit 2:
 ### Audit Presentation
 * Presentation of Hardware/Software was too technical and esoteric.
 
@@ -45,8 +45,9 @@
 * Include absence of Ben in meeting minutes or have separate folders for client and team meetings.
 
 ### Hardware
-* More discussion as a team prior to CAD drawings; greater discourse prior to major action.
-* Better communication with client as to not waste hours of work due to redundance.
+* Feedback suggestion was to design full enclosure. This was initially considered and discussed at the beginnning of the project, but did not align with the kit concept and manufacturing/open source feasibility. Given recent dicussions regarding temperature regulation, the possibility of a full enclosure design has not been ruled out.
+*
+
 
 ### Software
 * Decision log is empty for software (aforementioned).
@@ -56,8 +57,8 @@
 * Decision log can now be accessed from the conops.
 * An introduction for the Veincam on the repo landing page has been added.
 
-## Action Items from Audit 1 Feedback
-* Hardware and Software to present in more laymans terms for next Audit to avoid technical confusion from the Audience.
+## Action Items from Audit 2 Feedback
+* Update Decision Log to align with Hardware enclosure decisions. 
 * Break down requirements for high level milestones.
 * Until software is completed it is uncertain whether or not we will need two versions of the Veincam.
 * Clarify commercialization verification meaning.
