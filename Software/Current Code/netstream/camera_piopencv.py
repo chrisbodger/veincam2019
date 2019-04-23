@@ -36,6 +36,7 @@ class CameraEvent:
     def clear(self):
         self.events[get_ident()][0].clear()
 
+
 class StreamOutput():
     """Defines how the MJPEG stream writes to the buffer and splits each frame"""
     def __init__(self):
@@ -56,7 +57,7 @@ class Camera:
     def __init__(self, settings_cache):
         self.settings = settings_cache
 
-        # Calculates crop and roi sizes
+        # calculates crop and roi sizes
         self.res_height = 720
         self.res_width = 1280
         self.crop = self.crop_size(600, 600, self.res_height, self.res_width)
@@ -65,7 +66,7 @@ class Camera:
         self.roi[1] = self.crop_size(250, 250, 600, 600)
         self.roi = self.roi.astype(int)
 
-        # Starts camera thread and initiates event class
+        # starts camera thread and initiates event class
         self.thread = threading.Thread(target=self._thread)
         self.thread.start()
         self.event = CameraEvent()
@@ -111,6 +112,7 @@ class Camera:
             try:
                 while True:
                     try:
+                        # if statements used to suppress initial OpenCV warnings
                         if output.frame is not None:
                             string_array = np.fromstring(output.frame, np.uint8)
                         if np.shape(string_array)[0] > 0:
@@ -127,10 +129,15 @@ class Camera:
                             roi_index = 1
 
                         if self.roi_setting in ("Large", "Small"):
-                            roi_img = img[self.roi[roi_index][0]: self.roi[roi_index][1], self.roi[roi_index][2]: self.roi[roi_index][3]]
-                            clahe = cv2.createCLAHE(clipLimit=6.0, tileGridSize=(6, 6))
-                            roi_img = clahe.apply(roi_img)
-                            img_final[self.roi[roi_index][0]: self.roi[roi_index][1], self.roi[roi_index][2]: self.roi[roi_index][3]] = roi_img
+                            roi_img = img[self.roi[roi_index][0]: self.roi[roi_index][1],
+                                          self.roi[roi_index][2]: self.roi[roi_index][3]]
+
+                            hist_eq = cv2.createCLAHE(clipLimit=6.0, tileGridSize=(6, 6))
+                            roi_img = hist_eq.apply(roi_img)
+
+                            img_final[self.roi[roi_index][0]: self.roi[roi_index][1],
+                                      self.roi[roi_index][2]: self.roi[roi_index][3]] = roi_img
+
                         yield cv2.imencode('.jpg', img_final)[1].tobytes()
                     except GeneratorExit:
                         return
