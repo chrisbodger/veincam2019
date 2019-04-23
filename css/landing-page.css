@@ -1,13 +1,11 @@
 /*!
- * Start Bootstrap - Landing Page v5.0.4 (https://startbootstrap.com/template-overviews/landing-page)
+ * Start Bootstrap - Landing Page v5.0.3 (https://startbootstrap.com/template-overviews/landing-page)
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
  */
- 
-@import url(https://fonts.googleapis.com/css?family=Baloo|Open+Sans);
 
 body {
-  font-family: 'Baloo', cursive;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 h1,
@@ -16,17 +14,24 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Baloo', cursive;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
+}
+
+header .header-brand {
+  font-family: 'Baloo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  color: #eee;
+  margin-bottom:3rem;
 }
 
 header.masthead {
   position: relative;
-  background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background-color: #000000;
+  background: url("../img/bg-masthead_vc.jpg") no-repeat center center;
   background-size: cover;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
 }
 
 header.masthead .overlay {
@@ -45,32 +50,64 @@ header.masthead h1 {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+    padding-top: 1.5rem;
+    padding-bottom: 6rem;
   }
   header.masthead h1 {
     font-size: 3rem;
   }
 }
 
-.showcase .showcase-text {
-  padding: 3rem;
+.disclaimer {
+  position:absolute; 
+  bottom:0;
 }
 
-.showcase .showcase-img {
-  min-height: 30rem;
-  background-size: cover;
+.showcase .showcase-row {
+  padding: 2rem 0rem;
 }
+
+.showcase .showcase-text {
+  padding: 1rem 1rem;
+}
+.showcase .showcase-video {
+  padding: 0px;
+}
+
+.showcase .center-pills {    
+  display: flex;
+  justify-content: center;
+  }
+
+.showcase .nav-pills > li > a {
+    border: 1px solid #dedede;
+    }
+.showcase .nav-pills > li > a.disabled, .showcase .nav-pills > li > a.active {
+  border: 1px solid transparent;
+  }
+
+img.max-width-90 {
+    max-width: 95%;
+  }
 
 @media (min-width: 768px) {
   .showcase .showcase-text {
-    padding: 7rem;
+    padding: 2rem 7rem;
+  }
+  .showcase .showcase-video {
+    padding: 0px 10px;
+  }
+ 
+  .thinner {
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-bottom: 0rem;
   }
 }
 
 .features-icons {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
 }
 
 .features-icons .features-icons-item {
@@ -106,11 +143,11 @@ header.masthead h1 {
 
 .call-to-action {
   position: relative;
-  background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background-color: #333333;
+  /*background: url("../img/bg-masthead.jpg") no-repeat center center;*/
   background-size: cover;
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .call-to-action .overlay {
@@ -123,7 +160,31 @@ header.masthead h1 {
   opacity: 0.3;
 }
 
+.call-to-action .smalltext {
+  font-size: 0.8rem;
+}
+.call-to-action form {
+  font-size: 1.2rem;
+}
+
+.call-to-action form img {
+  border-radius: 23%;
+}
+
+.call-to-action .big-checkbox {width: 20px; height: 20px; left:33px;}
+
+.call-to-action input[type="radio"]:checked + label {
+  border: #ffffff 3px solid;
+  border-radius: 25%;
+  -webkit-border-radius: 25%;
+  -moz-border-radius: 25%;
+}
+
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+  width: unset;
 }
