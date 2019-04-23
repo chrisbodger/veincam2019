@@ -5,7 +5,7 @@
  */
 
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Baloo', cursive;
 }
 
 h1,
@@ -15,7 +15,6 @@ h4,
 h5,
 h6 {
   font-family: 'Baloo', cursive;
-  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
 }
 
