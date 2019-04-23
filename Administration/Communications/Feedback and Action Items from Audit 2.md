@@ -9,24 +9,20 @@ Very positive. Our output, teamwork, internal and external communication and rep
 
 ### Governance
 * Get governance and hardware members involved in software development to speed up process.
-   - Probably don't need to given current software progress. Alex may get involved in tidying up front end and presenting   website. 
+   - Probably don't need to given current software progress. Alex may get involved in tidying up front end and landing page webside==te
 
 * Add justification, method comparison and risk analysis for each major decision made based on the ConOps risk analysis matrix. 
 
-
+* Communicate how decisions make by hardware and software teams
 
 * Decision log to be improved.
   * The decision log needs to be added to, with minor decisions also being noted.
-  * Decision log is empty for software – potential communication issue, however software sub-team has only recently achieved comprehension goal of code, as such not many decisions have been made.
-    * Note the decision to code in Python instead of C++ and other minor decisions.
-  * More regular recording of decisions.
+  * Note the decision to code in Python instead of C++ and other minor decisions.
+  * More regular recording of decisions being made by hardware and software subteams. 
   * Improved format of decision log for better readability and so that it accounts for future decisions being overturned and such changes occuring.
     * This can be achieved perhaps by use headings like Decision/Why/Evidence to support. Colour code, split into three categories. Maybe number decisions to better track.
-  * Better justification of decisions such as input from stakeholders, advisory boards or reference groups.
-  * Note accountability/responsibility for decisions in decision log and note when/if decisions are revisited.
-
-* Include absence of Ben in meeting minutes or have separate folders for client and team meetings.
-
+    * Risk Analysis heading with severity and likelyhood rankings on each and the risk in making each decision.
+    
 ### Hardware
 * Feedback suggestion was to design full enclosure. This was initially considered and discussed at the beginnning of the project, but did not align with the kit concept and manufacturing/open source feasibility. Given recent dicussions regarding temperature regulation, the possibility of a full enclosure design has not been ruled out.
 *
