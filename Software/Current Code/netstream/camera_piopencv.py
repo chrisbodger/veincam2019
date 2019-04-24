@@ -37,7 +37,7 @@ class CameraEvent:
         self.events[get_ident()][0].clear()
 
 
-class StreamOutput():
+class StreamOutput:
     """Defines how the MJPEG stream writes to the buffer and splits each frame"""
     def __init__(self):
         self.frame = None
