@@ -1,9 +1,9 @@
 import os
-import requests
 import threading
 import time
 
 import psutil  # To gain CPU stats of pi
+import requests
 from flask import Flask, render_template, request, Response, json
 
 # DELETE: Check camera works: https://picamera.readthedocs.io/en/release-1.13/quickstart.html
@@ -26,11 +26,10 @@ app = Flask(__name__)
 
 # Set up some LED IO details and functions
 # Note, the 3V 850nm LED group is on pin 21
-LEDPinMap ={"850nm":{19,21}, 
-            "940nm":{18,20},
-            "Both":{18,19,20,21},
-            "Rail3V":{20,21},
-            "Rail5V":{18,19},
+LEDPinMap ={"850nm": {18},
+            "940nm": {13},
+            "Both": {13, 18},
+            "Rail5V": {13, 18},
             }
 
 pipin = io.pi()
@@ -123,9 +122,6 @@ def alterLightLevel(val):
         # Deal with the LEDs for the given wavelength
         activeLEDs5V = LEDPinMap[settings_cache['light_wavelength']].intersection( LEDPinMap["Rail5V"] )
         [pipin.hardware_PWM(pin, 800, duty_cycle) for pin in activeLEDs5V] #800Hz, beyond perception.
-
-        activeLEDs3V = LEDPinMap[settings_cache['light_wavelength']].intersection( LEDPinMap["Rail3V"] )
-        [pipin.write(pin,1) for pin in activeLEDs3V]
 
         if (val != settings_cache['light_level']): 
             updateSettingsCache('light_level',val) 
@@ -252,23 +248,21 @@ def refreshStats():
 # See https://blog.miguelgrinberg.com/post/flask-video-streaming-revisited,
 # https://github.com/miguelgrinberg/flask-video-streaming
 
+
 def gen(camera):
-    # Video streaming generator function.
-    # Recieve image from camera_opencv class (last image taken by camera), which will be test_image.jpg
+
     while settings_cache['cam_state']:
         frame = camera.get_frame()
         yield (b'--frame\r\n'
                b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
 
-# "Video"feed output to webpage, displaying latest image taken from camera each time it is refreshed (60 fps)
+
 @app.route('/video_feed', defaults={'increment': 0})
 @app.route('/video_feed/<int:increment>/')
 def video_feed(increment):
-    # Video streaming route. Put this in the src attribute of an img tag.
-    # print("%d" % increment)
-    camera = Camera()
+
     global settings_cache
-    camera.update_settings(settings_cache)  # TODO Flow through to object
+    camera = Camera(settings_cache)
     return Response(gen(camera),
                     mimetype='multipart/x-mixed-replace; boundary=frame')    
 
@@ -279,37 +273,14 @@ def video_feed(increment):
 @app.route('/check_blink_status', methods=['GET'])
 def checkBlinkStatus():
     global had_index_requests # Boolean, True if no index requests yet.
-    return json.dumps({"had_index_requests":had_index_requests})
+    return json.dumps({"had_index_requests": had_index_requests})
 
 
-def blink_LEDs():
-    def start_blinking():
-        no_user_interaction = True
-        allLEDSOff()
-        while no_user_interaction:
-            # Pin 21 runs the 850nm LEDs on the 3V bank only
-            # ...visible, only 2 LEDs, so low power usage
-            pipin.write(21,1)
-            time.sleep(0.5)
-            pipin.write(21,0)
-            time.sleep(1)
-            try:
-                url= "%s/check_blink_status" % baseurl
-                r = requests.get(url)
-                if bool(r.json()["had_index_requests"]):
-                    no_user_interaction = False
-                    exit
-            except:
-                pass
-
-    thread = threading.Thread(target=start_blinking)
-    thread.start()
-
-
-#---
-#Start the Flask server upon script run to IP address, port 8000.
 if __name__ == '__main__':
-    # blink_LEDs()
-    app.run(host='0.0.0.0', port='8080', debug=DEBUG, threaded=True)
-    
-# Note, to run this file in terminal > python app.py  or python3 app.py
+    try:
+        # turn ready LED on and start server
+        pipin.write(4, 1)
+        app.run(host='0.0.0.0', port='8080', debug=DEBUG, threaded=True)
+    finally:
+        # turn ready LED off
+        pipin.write(4, 0)
