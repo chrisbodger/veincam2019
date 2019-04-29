@@ -43,3 +43,18 @@ And thanks again for your hard work and enthusiasm to date - I know my involveme
 
 Cheers,
 Ben.
+
+# Actionables
+### Hardware
+* Increase LED cutout size for optical clarity
+* Easier method to adjust camera lens (bundled tool made from a cheap material, thin acrylic perhaps?)
+* Definitive testing of IR acrylic filters - shrink diameter of 3mm filter and make flush with top plate
+* shorter camera cables?
+* make SD card notch larger - cannot remove from device without tools
+
+### Software
+* clear up linear artefacts
+* look into CLAHE
+* boot time reduction - remove polling for local internet
+* app profiling - anyway to reduce load times further? how much of it is CV2?
+* Light Pin mapping - dimming settings (3V and 5V rail access by both LEDs) 
