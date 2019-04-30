@@ -46,3 +46,41 @@ of inbuilt post processing on captured images in specific formats
     * New code will be uploaded once this to a reasonable standard as at the moment code has had to be changed almost
     entirely via nano text editor so this is a slow process, even with local SSH capabilities
 * Development started to better indicate boot progress with new boot and status LEDs. Will continue into next week.
+
+### Week Beginning 08/04/2019
+* Boot LED now writes directly after Pi finishes normal boot process
+    * This gives a better indication of boot progress, talk of using hardware to put this light on from actual boot (using negative logic)
+    * General syntax fixes were made to camera_emulated code
+* General testing of current revision of code was done to test camera under different lighting conditions
+    * Linear artifacts were noticed most likely due to MJPEG stream
+    
+## Week Beginning 15/04/2019
+* Planning for how code would be cleaned (mainly converging camera_piopencv and camera_base) including defining each function and how they interact with eachother
+* Plans for how software will move forward were set
+    * It is difficult to say whether Image quality can be further improved
+        * This is due to the capabilities of the pi. Resolution is tied to Field of View
+        * Almost no image processing is done and even with image processing off, frame rate and quality does not improve
+        * Changes to camera settings such as sharpness, gain, etc. do not make the image more clear especially in temrms of veins and can slightly reduce framerate.
+* Plans to make a code document for how each function works for educational tools and handover will be made once cleanup has commenced
+
+## Week Beginning 22/04/19
+* Code for camera_piopencv and camera_base was significantly changed to now be in one file with only three classes
+    * Readability was improved, many code redundancies were found and removed, and many other minor variable name changes and syntax fixes were changed for user readability
+* Small amount of commenting was added, and references to open source code were kept where necessary.
+* Small hardware faults and changes were pointed out and fixed or revised for further board spins including:
+    * IR LEDs being the on the opposite pins to what they were on original schematics
+        * This was changed in software and subsequently changed on the schematic
+    * SD card is still too difficult to remove, although it was brought up whether we want to be able to remove it at all depending age group client wants to most target
+        * Notch in current acrylic will be made slightly wider
+    * HDMI port on the A+ gets a little too hot after prolonged use of having the camera on (maybe 10 minutes)
+        * This will be brought up with the client as future iterations of the project may want to go to a fully enclosed design
+        * For the moment, the acrylic was made slightly wider on all sides
+        
+## Week Beginning 29/04/2019
+* Plans of how app.py will be cleaned and made more readable
+* Feedback from client of current software (outputs not actual code) were acted upon where necessary
+    * Meeting will be set up as to where the software needs to go within the next three weeks
+    * In the meantime app.py will be cleaned, software documentation will be written (including how each function works with new Visio diagram)
+        * This will hopefully be included in current front end soon
+* Some other members will now move on to helping with front end ideas implementation
+    * First priority is getting loading GIF working, and making current front end mobile friendly especially with the video output
