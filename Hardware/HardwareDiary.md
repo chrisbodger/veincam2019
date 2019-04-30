@@ -36,3 +36,11 @@
 * Laid out v2 of the VeinCam Zero to better fit a custom cut acrylic case instead of the official RPi case. 
 * Begun design of v2 enclosure for the VeinCam Zero
 * Changed VeinCam Plus enclosure to decrease size of IR acrylic required. 
+
+### Week Beginning 15/04/2019
+* Continued design of the v2 enclosure, and found it very hard to design around. 
+* Through discussions with Ben and the team, have decided to scrap the zero due to the design challenges we will face wrt hardware, and the lack of performance which software is experiencing. 
+
+### Week Beginning 22/04/2019
+* Cut new case designs including IR acrylic for first time.
+* Handed out to team members and Ben, awaiting feedback before continuing further. 
