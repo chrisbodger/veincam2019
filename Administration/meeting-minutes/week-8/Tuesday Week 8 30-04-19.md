@@ -18,7 +18,7 @@
 ## Main Discussion
 ### Governance
 * Aim to be better in harmony with what Ben expects and what subteam priorities are.
-* Need to clarify what educational experience/resources we aim to present students with and how we aim to do so. While the education/involvement of students is important we are prioritising teacher feedback.
+* Need to clarify what educational experience/resources we aim to present students with and how we aim to do so. While the education/involvement of students is important we are prioritising teacher feedback. Must develop questions that we want to be asked as feedback.
 * To consider poster and development on this from last semester.
 
 ### Software
@@ -41,4 +41,5 @@
 
 ## Deliverables
 * Governance to attend Monday session regarding poster presentation and begin work on this.
+* Governance to develop feedback questions for teacher for school presentation.
 * Hardware and Software to consider Ben's feedback; filter, LED brightness settings.
