@@ -14,6 +14,7 @@
 1. Ben's feedback
 2. Audit feedback
 3. Project discussion
+4. Tutorial meeting
 
 ## Main Discussion
 ### Governance
@@ -43,3 +44,7 @@
 * Governance to attend Monday session regarding poster presentation and begin work on this.
 * Governance to develop feedback questions for teacher for school presentation.
 * Hardware and Software to consider Ben's feedback; filter, LED brightness settings.
+
+## Tutorial Meeting
+* Governance to attend poster session on Monday.
+* Whole team to ensure that there is appropriate evidence and documentation that will be used to support or substantiate claim of grade later in the semester.
