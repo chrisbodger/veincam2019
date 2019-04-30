@@ -39,17 +39,6 @@ Most of the work done on software since the last audit was to improve the frame 
 
 With this major hurdle out of the way we plan to begin improving the image processing algorithm, improving the user front end and cleaning up the Python files.
 
-#### Hardware
-Scrapped VeinCam (Raspi Zero) model due to lack of power for image processing, did not meet framerate and boot time requirements even after Software optimisation. Renamed Veincam Plus to simply just VeinCam.
-
-Client handed kit, assembled full prototype and gave extensive feedback. Available [here](/Administration/Communications/client-feedback-20190428.md) Changes will be made to hardware based on this feedback.
-
-### Software
-
-Most of the work done on software since the last audit was to improve the frame rate of the received image, this required us to find the processing bottleneck in the system. After hours of testing, debugging and exploring the technical details of the code we improved the frame rate significantly by implementing an alternative image capturing method.
-
-With this major hurdle out of the way we plan to begin improving the image processing algorithm, improving the user front end and cleaning up the Python files.
-
 ### Previous Updates
 Previous project updates can be found in the [Project Updates](Administration/Project/Updates) directory, and will be populated as major progress updates are made. More specific updates regarding each sub-team are available in the sub-team work diaries. These can be found in the [Hardware](/Hardware/HardwareDiary.md) and [Software](/Software/SoftwareDiary.md) folders, as well as team [Decision Logs](/Administration/Project/Decision-Log.md) are other locations for progress notes, should they not be located on this page.
 
