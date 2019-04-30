@@ -9,7 +9,7 @@ Very positive. Our output, teamwork, internal and external communication and rep
 
 ### Governance
 * Get governance and hardware members involved in software development to speed up process.
-   - Probably don't need to given current software progress. Alex may get involved in tidying up front end and landing page webside==te
+   - Probably don't need to given current software progress. Alex may get involved in tidying up front end and landing page website
 
 * Add justification, method comparison and risk analysis for each major decision made based on the ConOps risk analysis matrix. 
 
@@ -25,7 +25,6 @@ Very positive. Our output, teamwork, internal and external communication and rep
     
 ### Hardware
 * Feedback suggestion was to design full enclosure. This was initially considered and discussed at the beginnning of the project, but did not align with the kit concept and manufacturing/open source feasibility. Given recent dicussions regarding temperature regulation, the possibility of a full enclosure design has not been ruled out.
-*
 
 
 ### Software

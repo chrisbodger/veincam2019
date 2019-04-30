@@ -8,7 +8,7 @@ Based on where things are now, here are my thoughts.
 
 ## Hardware:
 * Nicely done! Everything fits together well, maintains the key promises of the kit, and seems robust (didn’t break when I’ve dropped it!).
-On first run (prior to adjusting the camera focal length) I was getting a number of circular artifacts from in the image, which I think was due to the light interacting with the edges of the LED circular cutouts in the case. This might be resolved by making the cutouts much larger. Indeed, that would also be useful if opaque versions of the case are produced.
+* On first run (prior to adjusting the camera focal length) I was getting a number of circular artifacts from in the image, which I think was due to the light interacting with the edges of the LED circular cutouts in the case. This might be resolved by making the cutouts much larger. Indeed, that would also be useful if opaque versions of the case are produced.
 * Adjustment of the camera lens appears to be essential to producing a usable image. Is there any way to make this a simple process for users and reducing the risk of camera damage for them?  I used a pair of tweezers to make the adjustment, but this is probably not ideal.  I know mention was made of incorporating a tool into the case design - any further thoughts on that?
 * It appears the MidOpt IR filter (3mm thick) is better.  Is that your impression too?  If so, then is there a way to make it smaller by a couple of mm (eg from 9mm to 7mm diameter), and to use a flexible spacer to enable this while excluding visible light?  Perhaps there is an off-the-shelf thin black rubber spacer that would do the trick. This way the 3mm filter might fit entirely within the clear case (rather than sitting proud) which will protect it better, and the spacer will allow for both a smaller diameter and accommodate variation in the depth of corner hole spacers once screws are tightened.  
 * Related - I’m keen to hear what you think of the different filter options.  Is the acrylic as good as glass?  Is the midopt (3mm) acrylic better than the Edmund (1mm) acrylic?
@@ -27,7 +27,8 @@ Is there any particular path the cable should take when putting it together?  My
 * Do you know how much of this time is CV2 load?
 ### Light pin mapping.
 * I think setting ‘1’ for light is off entirely at the moment, with ‘2’ being a minimal setting but with all lights on.  Is this due to the board design (ie, is it not possible to address the 2 set of LED circuits - 3v vs 5v - independently now), or is it just a software decision?
-* Sorry the feedback is limited at this point - I’ll can give more later, and am happy if you have specific things you want me to look at.
+* Sorry the feedback is limited at this point - I’ll can give more later, and am happy if you have specific things you want me to look at.  
+
 
 ## Audit feedback:
 * I’ve taken a look at this and agree that progress has been great.
@@ -58,3 +59,28 @@ Ben.
 * boot time reduction - remove polling for local internet
 * app profiling - anyway to reduce load times further? how much of it is CV2?
 * Light Pin mapping - dimming settings (3V and 5V rail access by both LEDs) 
+
+
+
+
+# Comments
+
+## Hardware
+
+* Cool!
+* We hadn't noticed that before, will make the holes larger to ensure it dosen't happen. 
+* Will add a cutout to the bottom plate which mates with the camera lens and allows adjustment. 
+* The SW guys (who have the VeinCams) agree that 3mm is better. We have an idea which will get the IR acrylic down to 5mm dia whilst ensuring that is sits flush. Josh will get a new set of prototypes cut end of week and go from there. 
+* We were thinking that it would be good to hide the SD card to stop kids pulling it out, but added the indent so it can still be removed. Thoughts? Happy to make it anywhere from real easy to really hard to remove. 
+* We were unable to source the correct length / dia screws locally, have ordered correct parts and most have arrived, only the M2.5 nuts are left and it will all be flush.
+
+## Software 
+*
+*
+*
+*
+*
+*
+*
+*
+* (Josh here) It's not a hardware issue, all LEDs of the same nm are controlled at the same time, probably a quick software fix. 
