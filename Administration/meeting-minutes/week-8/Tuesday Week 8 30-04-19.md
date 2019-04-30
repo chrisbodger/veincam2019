@@ -19,6 +19,7 @@
 ### Governance
 * Aim to be better in harmony with what Ben expects and what subteam priorities are.
 * Need to clarify what educational experience/resources we aim to present students with and how we aim to do so. While the education/involvement of students is important we are prioritising teacher feedback.
+* To consider poster and development on this from last semester.
 
 ### Software
 * Histogram equalisation failing to be optimised. Linear artefacts are presents. This may simply be the tradeoff for high frame rates; therefore simply can't resolve the presence of linear artefacts. Ben thinks its an issue of the Histrogram settings - Patrick has played with said settings sufficiently. This issue has surely been overcome by someone else and is therefore worth investigating, but not absolutely critical.
@@ -37,3 +38,7 @@
 ## Decisions Made
 * Notch for microSD. Group believes that having the microSD inaccessible is probably better.
 * Change brightness settings for LEDs. Include on/off button and 1-5 brightness or the like. Decided on 3 modes; off, medium and high; 0,1,2,3.
+
+## Deliverables
+* Governance to attend Monday session regarding poster presentation and begin work on this.
+* Hardware and Software to consider Ben's feedback; filter, LED brightness settings.
