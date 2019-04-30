@@ -3,7 +3,7 @@
 
 VeinCam is an educational tool for vein visualisation that uses. It uses near infrared (nIR) light and a camera to stream a real-time image where veins can be easily seen. It is an open-source, build-it-yourself device so anyone who finds it useful will be able to construct it. There is a how-to guide of what materials to buy, how to put them together and the software to upload to get it all working.
 
-This is the repository for the continuation of the VeinCam Project as an ANU Engineering Captone Project in 2019. The repository for the previous work can be found [HERE](https://www.github.com/chrisbodger/veincam). This repository will be used to delineate and document the progress made this semester, in what is to be the next chapter of this exciting projet. 
+This is the repository for the continuation of the VeinCam Project as an ANU Engineering Captone Project in 2019. The repository for the previous work can be found [HERE](https://www.github.com/chrisbodger/veincam). This repository will be used to delineate and document the progress made this semester, in what is to be the next chapter of this exciting project. 
 
 ---
 # Table Of Contents
@@ -27,11 +27,22 @@ There are 3 goals we wish to achieve this semester:
 A feedback form has been created for the interest of our stakeholders, should they wish to pass on any changes or improvements they believe to be prudent. The form can be found [here](https://goo.gl/forms/8cw5eWdaOY5C1jBo1).
 
 # 3. Project Updates
-### Week 6 Audit - 02/04/2019
+### Week 8 - 30/04/2019
 #### Hardware
-Hardware has been busy designing and testing new case designs, with the case for the VeinCam Plus being close to being finalised. 
-Currently awaiting more parts to arrive before case design for the VeinCam Zero begins. 
-Printed Circuit Boards have arrived and been assembled, prelimary check shows them working as planned, will have to wait for software to add some code before full functionality of the printed circuit boards. 
+Scrapped VeinCam (Raspi Zero) model due to lack of power for image processing, did not meet framerate and boot time requirements even after Software optimisation. Renamed Veincam Plus to simply just VeinCam.
+
+Client handed kit, assembled full prototype and gave extensive feedback. Available [here](/Administration/Communications/client-feedback-20190428.md) Changes will be made to hardware based on this feedback.
+
+### Software
+
+Most of the work done on software since the last audit was to improve the frame rate of the received image, this required us to find the processing bottleneck in the system. After hours of testing, debugging and exploring the technical details of the code we improved the frame rate significantly by implementing an alternative image capturing method.
+
+With this major hurdle out of the way we plan to begin improving the image processing algorithm, improving the user front end and cleaning up the Python files.
+
+#### Hardware
+Scrapped VeinCam (Raspi Zero) model due to lack of power for image processing, did not meet framerate and boot time requirements even after Software optimisation. Renamed Veincam Plus to simply just VeinCam.
+
+Client handed kit, assembled full prototype and gave extensive feedback. Available [here](/Administration/Communications/client-feedback-20190428.md) Changes will be made to hardware based on this feedback.
 
 ### Software
 
@@ -40,10 +51,10 @@ Most of the work done on software since the last audit was to improve the frame 
 With this major hurdle out of the way we plan to begin improving the image processing algorithm, improving the user front end and cleaning up the Python files.
 
 ### Previous Updates
-Previous project updates can be found in the [Project Updates](Administration/Project/Updates) directory, and will be populated as progress updates are made. Team work diaries can be found in the [Hardware](/Hardware/HardwareDiary.md) and [Software](/Software/SoftwareDiary.md) folders, as well as team [Decision Logs](/Administration/Project/Decision-Log.md) are other locations for progress notes, should they not be located on this page.
+Previous project updates can be found in the [Project Updates](Administration/Project/Updates) directory, and will be populated as major progress updates are made. More specific updates regarding each sub-team are available in the sub-team work diaries. These can be found in the [Hardware](/Hardware/HardwareDiary.md) and [Software](/Software/SoftwareDiary.md) folders, as well as team [Decision Logs](/Administration/Project/Decision-Log.md) are other locations for progress notes, should they not be located on this page.
 
 # 4. Concept of Operations
-Our Concept of Operations will be signed off this week.
+Our Concept of Operations has been signed off by all parties involved. 
 
 The [Concept of Operations](Administration/Project/CONOPS.md) document can be found in our repository.
 
