@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name VeinCamHat-rescue)(type Legacy)(uri ${KIPRJMOD}/VeinCamHat-rescue.lib)(options "")(descr ""))
-  (lib (name VeinCam)(type Legacy)(uri "C:/Users/Josh Johnson/Dropbox/ENGN4221/VeinCamHat/Library/VeinCam.lib")(options "")(descr ""))
-)

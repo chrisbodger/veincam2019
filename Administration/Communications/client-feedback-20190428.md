@@ -71,11 +71,9 @@ Ben.
 * We hadn't noticed that before, will make the holes larger to ensure it dosen't happen. 
 * Will add a cutout to the bottom plate which mates with the camera lens and allows adjustment. 
 * The SW guys (who have the VeinCams) agree that 3mm is better. We have an idea which will get the IR acrylic down to 5mm dia whilst ensuring that is sits flush. Josh will get a new set of prototypes cut end of week and go from there. 
+* We know the cable routing sucks, shoving it in there seems like the best option without replacing the FFC for a shorter cable. Could be done but would add >$5 per VeinCam which I (Josh) would prefer not avoid. 
 * We were thinking that it would be good to hide the SD card to stop kids pulling it out, but added the indent so it can still be removed. Thoughts? Happy to make it anywhere from real easy to really hard to remove. 
-<<<<<<< HEAD
 * We were unable to source the correct length / dia screws locally, have ordered correct parts and most have arrived, only the M2.5 nuts are left and it will all be flush.
-=======
->>>>>>> 9181c3f38bf58092e107a537d45127ca17124996
 
 ## Software 
 *

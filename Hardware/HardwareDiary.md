@@ -44,3 +44,7 @@
 ### Week Beginning 22/04/2019
 * Cut new case designs including IR acrylic for first time.
 * Handed out to team members and Ben, awaiting feedback before continuing further. 
+* DFM improvements to the VeinCam PCB
+
+## Week Beginning 29/04/2019
+* Resign of the enclosure to address issues with latest rev + shrink IR lens size. 
