@@ -3,3 +3,5 @@ The kids were very interested, engaged and energetic from the get go, which was 
 everyone was keen to try it out. Special thanks to Sarah Fletcher from Bonython Primary School for organising this showcase.
 
 A few pieces of feedback regarding VeinCam as a potential educational device:
+- Faliure is okay, part of the process. VeinCam flexibility. 
+- We're encouraged to read the curriculum. Science, biology, and Technology 
