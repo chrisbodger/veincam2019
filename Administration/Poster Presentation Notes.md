@@ -22,3 +22,4 @@
 * Consider poster as a conversation starter and engagement piece. Always keep to poster manned to facilitate discussion.
 * Use readable font such as sans-serif fonts, e.g. Helvetica or Roboto.
 * Add a QR code or some link to the repository.
+* Can include props/prototypes for table at poster presentation.
