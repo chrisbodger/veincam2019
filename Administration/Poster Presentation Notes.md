@@ -9,6 +9,7 @@
 ## Do
 * Reduce amount of text. Should provide a broad overview not over-detailed information. Catching the viewers attention is difficult when there is excessive text.
 * Have a good image capture point. The first few seconds will determine whether or not the viewer is interested or not. There must be on hook aka hero image. These will present the key elements of the project to the viewer. This can be exemplfied by movie posters which convey the key elements of a movie to the viewer (at the most simple level), in aim to get them interested. This will present the main objective of the project and main output of the project.
+* Customise colours so that everything is consistent; don't merely copy images from external sources or the like.
 
 ## Specifications
 * A1 size, however design for A0.
