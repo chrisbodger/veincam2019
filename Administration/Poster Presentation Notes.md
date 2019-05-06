@@ -12,7 +12,7 @@
 * Customise colours so that everything is consistent; don't merely copy images from external sources or the like.
 
 ## Specifications
-* A1 size, however design for A0.
+* A1 size, however design for A0. Should be printable for all sizes.
 * No template to follow.
 * Submit as PDF on wattle.
 * Include names of all team members.
@@ -20,8 +20,16 @@
 * Note that this is not an academic. It is a design poster; therefore be creative with visualisation.
 
 ## Recommendations
+* Less is more. Do something that is attractive to try and promote interest.
 * Consider poster as a conversation starter and engagement piece. Always keep to poster manned to facilitate discussion.
 * Use readable font such as sans-serif fonts, e.g. Helvetica or Roboto.
-* Add a QR code or some link to the repository.
+* Add a QR code or some link to the repository. The audience should be able to get in contact with team/clients and there should be the potential for future opportunities.
 * Can include props/prototypes for table at poster presentation.
 * Prioritise initial hook/spark of interest as viewers will not spend more than a few minutes on a single poster.
+* Vector based graphics are ideal.
+* Consider that things look different on the screen than when printed out.
+* Having 6-8 team members in front of the poster at one time can be intimidating to viewers, and may negatively affect conversations. Therefore, you may wish to only have 2-3 team members at the poster at a given time as to better facilitate discussion.
+* If presenting data don't use a table; use charts or some visual display.
+
+## Actionables
+* Get draft ready for Monday Week 10 Tute for feedback prior to submission on Wednesday.
