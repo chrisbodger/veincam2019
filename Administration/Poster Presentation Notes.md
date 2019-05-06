@@ -23,3 +23,4 @@
 * Use readable font such as sans-serif fonts, e.g. Helvetica or Roboto.
 * Add a QR code or some link to the repository.
 * Can include props/prototypes for table at poster presentation.
+* Prioritise initial hook/spark of interest as viewers will not spend more than a few minutes on a single poster.
