@@ -286,7 +286,7 @@ Milestones are subject to change as the project evolves. Changes will be made to
 |  -- 1.5. Finalise requirements  | 2 hours | Each Team Individually| On going | 
 | ***2. Prototyping***  | | | |
 |  -- 2.1. Design new prototype  | 6 - 10 hours | Hardware | Complete |
-|  -- 2.2. Manufacture and construct newest prototype | 4 - 8 hours | Hardware | In Progress |
+|  -- 2.2. Manufacture and construct newest prototype | 4 - 8 hours | Hardware | Complete |
 |  -- 2.3. Design base software in line with new requirements  | 6 - 10 hours | Software | Complete |
 |  -- 2.4. Integrate software  | 2 hours | Software | In Progress |
 |  -- 2.5. Update software with stretch deliverables  | 4 - 8 hours | Hardware | Awaiting Completion (Dependent on 2.3, 2.4) |
