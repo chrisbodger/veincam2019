@@ -71,7 +71,8 @@ class Camera:
         self.thread.start()
         self.event = CameraEvent()
 
-    def crop_size(self, h, w, rh, rw):
+    @staticmethod
+    def crop_size(h, w, rh, rw):
         crop_points = []
         crop_points.append(int((rh / 2) - (h / 2)))
         crop_points.append(crop_points[0] + h)
@@ -94,7 +95,7 @@ class Camera:
 
     def _thread(self):
         print('Starting Camera Thread')
-        frames_iterator = self.frames()
+        frames_iterator = self.frames(self.settings["state"])
         for frame in frames_iterator:
             self.frame = frame
             self.event.set()
@@ -103,47 +104,56 @@ class Camera:
                     print('Stopping Camera Thread')
                     break
 
-    def frames(self):
+    def frames(self, state):
         with picamera.PiCamera(resolution=(self.res_width, self.res_height)) as self.pi_camera:
             time.sleep(1)
-            output = StreamOutput()
-            self.pi_camera.start_recording(output, format='mjpeg')
-            self.pi_camera.rotation = 180
-            try:
-                while True:
-                    try:
-                        # if statements used to suppress initial OpenCV warnings
-                        if output.frame is not None:
-                            string_array = np.fromstring(output.frame, np.uint8)
-                        if np.shape(string_array)[0] > 0:
-                            img = cv2.imdecode(string_array, cv2.IMREAD_GRAYSCALE)
+            if state == "MJPEG":
+                output = StreamOutput()
+                self.pi_camera.start_recording(output, format='mjpeg')
+                self.pi_camera.rotation = 180
+                try:
+                    while True:
+                        try:
+                            # if statements used to suppress initial OpenCV warnings
+                            if output.frame is not None:
+                                string_array = np.fromstring(output.frame, np.uint8)
+                            if np.shape(string_array)[0] > 0:
+                                img = cv2.imdecode(string_array, cv2.IMREAD_GRAYSCALE)
+                            self.update_settings()
+                            self.image_processing(img)
+                            yield cv2.imencode('.jpg', self.img_final)[1].tobytes()
+                        except GeneratorExit:
+                            return
+                        except UnboundLocalError:
+                            pass
+                        except cv2.error:
+                            pass
+                finally:
+                    self.pi_camera.stop_recording()
+            elif state == "YUV":
+                raw_capture = np.empty(int(self.res_height * self.res_height * 1.5), dtype=np.uint8)
+                for frame in self.pi_camera.capture_continous(raw_capture, format="yuv"):
+                    img = raw_capture[:self.res_height*self.res_width].reshape((self.res_height, self.res_width))
+                    self.update_settings()
+                    self.image_processing(img)
+                    yield cv2.imencode('.jpg', self.img_final)[1].tobytes()
 
-                        self.update_settings()
+    def image_processing(self, img):
+        img = img[self.crop[0]:self.crop[1], self.crop[2]:self.crop[3]]
+        self.img_final = img.copy()
 
-                        img = img[self.crop[0]:self.crop[1], self.crop[2]:self.crop[3]]
-                        img_final = img.copy()
+        if self.roi_setting == "Large":
+            roi_index = 0
+        elif self.roi_setting == "Small":
+            roi_index = 1
 
-                        if self.roi_setting == "Large":
-                            roi_index = 0
-                        elif self.roi_setting == "Small":
-                            roi_index = 1
+        if self.roi_setting in ("Large", "Small"):
+            roi_img = img[self.roi[roi_index][0]: self.roi[roi_index][1],
+                          self.roi[roi_index][2]: self.roi[roi_index][3]]
 
-                        if self.roi_setting in ("Large", "Small"):
-                            roi_img = img[self.roi[roi_index][0]: self.roi[roi_index][1],
-                                          self.roi[roi_index][2]: self.roi[roi_index][3]]
+            hist_eq = cv2.createCLAHE(clipLimit=6.0, tileGridSize=(6, 6))
+            roi_img = hist_eq.apply(roi_img)
 
-                            hist_eq = cv2.createCLAHE(clipLimit=6.0, tileGridSize=(6, 6))
-                            roi_img = hist_eq.apply(roi_img)
+            self.img_final[self.roi[roi_index][0]: self.roi[roi_index][1],
+                           self.roi[roi_index][2]: self.roi[roi_index][3]] = roi_img
 
-                            img_final[self.roi[roi_index][0]: self.roi[roi_index][1],
-                                      self.roi[roi_index][2]: self.roi[roi_index][3]] = roi_img
-
-                        yield cv2.imencode('.jpg', img_final)[1].tobytes()
-                    except GeneratorExit:
-                        return
-                    except UnboundLocalError:
-                        pass
-                    except cv2.error:
-                        pass
-            finally:
-                self.pi_camera.stop_recording()
