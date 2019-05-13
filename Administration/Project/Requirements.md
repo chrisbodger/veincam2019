@@ -4,27 +4,20 @@
 | :-------------: |:-------------:| :-----:| :----:|
 | Alexander Ollman   | 13/05/2019 | 2.0 | Completed for Audit 3 |
 
-| System Requirement  | Metric | Test | Validation | Client Importance (1-5) | Requirement Met? |
+
+
+| System Requirement  | Metric | Test | Validation | Client Importance (1 Lowest - 5 Highest) | Requirement Met? |
 | :-------------: |:-------------:| :-------------:| :-------------: | :-----:| :----:|
-| Compared to other devices with similar functionality, the produced device must be relatively inexpensive.  | Dollars, Australian | <$500AUD (Typical Public School Science Budget) | Cost of production VeinCam (minus packaging, freight, external costs) is less than $150 to consumer. | 3 | Yes, with reservation. |
+| Compared to other devices with similar functionality, the produced device must be relatively inexpensive.  | Dollars, Australian | <$500AUD (Typical Public School Science Budget) | Cost of production VeinCam (minus packaging, freight, external costs) is less than $150 to consumer. | 3 | Yes, with reservation |
 | The device must be simple to construct, easily reproduced (and/or easily manufacturable).  | Cost per unit | Cost per unit is <50% of total cost to consumer; contains mostly off-the-shelf components; can be manufactured with common machines, worldwide. | Cost per unit of is $13.49 for designed componentry, remainder of cost is from off-the-shelf components (Raspberry Pi A+, PiCam). Designs are open source and easily manufacutred with a laser cutter and PCB routing machine. | 5 | Yes, with reservation. |
-| The device must be simple to use. Ease of use should be correlated with the intended educational application of the device, and as such be relevant for expected users. | Time, minutes | Time taken to assemble by unknown party, student. | Nursing student (Rachael Weigand) assembled VeinCam prototype closely resembling final design in 8 minutes (without camera focus adjustment, software setup) | 2 | Yes, with reservation. |
-| The device must be able to use near infrared (NIR) illumination and real-time image processing to make veins appear most visible in an efficient manner. This criterion must be of a level of quality that is satisfactory for educational use. | #Infrared LED's | #Infrared LED's > 0, Veins Clearly Visible | There are six dual-wavelength (840nm and 950nm) infrared LED's which provide sufficient illumination on a subject and show clear, defined veins in the majority of test subjects (dependent on skin type, body fat) | 2 | Yes.|
-
-
-
-
-### System Requirements:
-1. Compared to other devices with similar functionality, the produced device must be relatively inexpensive.
-2. The device must be simple to construct, easily reproduced (and/or easily manufacturable?)
-3. The device must be simple to use. Ease of use should be correlated with the intended educational application of the device, and as such be relevant for expected users.
-4. The device must be able to use near infrared (NIR) illumination and real-time image processing to make veins appear most visible in an efficient manner. This criterion must be of a level of quality that is satisfactory for educational use.
-5. The device must run primarily off of battery power.
-6. The device must be able to wirelessly connect to an external device with a screen.
-7. The device must be portable and mobile.
-8. The device must be reasonably easy to maintain, clean and fix in the event of failure/break/degradation.
-9. The device should display veins in as many use-cases as possible (e.g. dark-skinned, tattooed, hairy). (Stretch deliverable)
-10. The device is manufacturable to ***have the potential*** to be put to a commercial market. (Stretch deliverable)
+| The device must be simple to use. Ease of use should be correlated with the intended educational application of the device, and as such be relevant for expected users. | Time, minutes | Time taken to assemble by unknown party, student. | Nursing student (Rachael Weigand) assembled VeinCam prototype closely resembling final design in 8 minutes (without camera focus adjustment, software setup). Device does not require further software setup and only knowing how to connect to a WiFi network is requied. | 2 | Yes, with reservation |
+| The device must be able to use near infrared (NIR) illumination and real-time image processing to make veins appear most visible in an efficient manner. This criterion must be of a level of quality that is satisfactory for educational use. | #Infrared LED's | #Infrared LED's > 0, Veins Clearly Visible | There are six dual-wavelength (840nm and 950nm) infrared LED's which provide sufficient illumination on a subject and show clear, defined veins in the majority of test subjects (dependent on skin type, body fat) | 2 | Yes |
+| The device must run primarily off of battery power. | Battery Capacity (mAh) | Battery Capacity > 0 mAh | The device contains no internal battery. However, the device is light and portable enough to be comfortably used with an external battery. | 1 | Yes, with reservation |
+| The device must be able to wirelessly connect to an external device with a screen. | Wireless Connectivity Capability | - | Unit contains Built in WiFi + Bluetooth capability, connects to any external device with a screen and WiFi capability using WLAN connection | 4 | Yes |
+| The device must be portable and mobile. | Weight, grams (g) | Total Net Weight < 200g | Unit is light (110g) and is easy and comfortable to hold in one hand. Device requires external power, which requires a cable connected to an external power source. This will commonly be either an exernal battery pack, a personal computer or an AC wall socket. | 4 | Yes, with reservation |
+| The device must be reasonably easy to maintain, clean and fix in the event of failure/break/degradation. | Time, minutes | Time taken to be disassembled and reassembled by unknown party, student. | Device is completely modular and can be disassembled within 5 minutes, without the need for tools. Individual parts are easily accessible and two of the three major components are off-the-shelf. | 3 | Yes |
+| The device should display veins in a wide variety of use-cases. | - | Veins clearly visible and defined on wide on differing external parties (e.g. dark-skinned, tattooed, hairy) | The device has not been tested outside of the testing confines of the project in accordance with ANU Ethics guidelines. Within our own testing, we have verified veins are clear and visible on a limited yet varied user sample size. | 5 | Untested, with reservation |
+| The device is manufacturable with  the potential to be put to a commercial market. | Dollars, Australian | Complete Bill of Materials, including cost with potential for >100% markup. | The component designs, Bill of Materials, source of components and manufacturing costs of the device have validated that this is a commercialy manufacturable and viable product. VeinCam's marketability with be the responsibility of the client but has been discussed in the Marketability document [here](https://github.com/chrisbodger/veincam2019/blob/master/Administration/Marketability.md).  | 5 | Yes |
 
 ### Requirements of Hardware Team
 1. Redesign device enclosure(s) to accomodate Raspberry Pi A+ and Raspberry Pi Zero.
