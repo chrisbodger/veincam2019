@@ -5,7 +5,8 @@
 | 8/4/2019 - 30/4/2019 | Bonython Primary School Presentation | Discussions regarding the visit to present VeinCam to Bonython Primary School, including an email introduction to Joseph Jennings of the ACT Education Directorate. We are awaiting a response from Joseph. | Yes |
 | 2/05/2019 | Bonython Primary School Presentation | Josh, Alex, Patrick and Alex visited Bonython Primary School to present VeinCam and recieve feedback from teachers regarding student engagement and marketability for VeinCam. A summary document of this meeting is available in the Communications folder.  | Yes |
 | 6/05/2019 | Gungahlin College Presentation | Contacted Nicola Kovacs, Year 10 SMART program coordinator at Gungahlin College, who is keen for us to showcase VeinCam. Likely will visit Gungahlin in the middle of Week 10. | Yes |
-| 13/05/2019 | External Consult | Met with Stephanie Pratt, former VeinCam member, who gave valuable feedback on our current progress, including revising the Requirements and Decision Log documents to make the value added by this semester's project clear. A summary document of this meeting is available in the Communications folder. | Yes |
+| 13/05/2019 | External Consult | Contacted (via email) the CSIRO Discovery Centre and Matt Cracknell from Questacon about a potential visit and consultation on what potential VeinCam has to teach students of all ages about science and technology. | Yes |
+| 13/05/2019 | External Consult | Alex with Stephanie Pratt, former VeinCam member, who gave valuable feedback on our current progress, including revising the Requirements and Decision Log documents to make the value added by this semester's project clear. A summary document of this meeting is available in the Communications folder. | Yes |
 
 
 
