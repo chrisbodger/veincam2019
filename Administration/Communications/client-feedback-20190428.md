@@ -76,12 +76,10 @@ Ben.
 * We were unable to source the correct length / dia screws locally, have ordered correct parts and most have arrived, only the M2.5 nuts are left and it will all be flush.
 
 ## Software 
-*
-*
-*
-*
-*
-*
-*
-*
-* (Josh here) It's not a hardware issue, all LEDs of the same nm are controlled at the same time, probably a quick software fix. 
+* Linear Artifacts were tied to refresh rate of the lEDs with respect to the camera frame rate, we were able to fix this via changing the LED refresh rate so that camera frame rate period was an integer multiple of the LEDs refresh rate period (hope that makes sense), although you can still sometimes notice them, its a very significant decrease
+* We agree, at the moment most of the artifacts now come from the IR acrylic itself and also the camera focus. After extended use I have also noticed the IR acrylic can smudge easily making the image more blurry, though of course having the correct camera focus provides the biggest benefit
+* We have done many boot time measurements and the vast majority of this time is just the pi booting normally, the actual setting up of the hotspot takes around 3-5 seconds, and removing those lines of code does not seem to make any difference to that small time window
+* Yes the server takes around 10 seconds to load the first time it is booted, but from what we have tested opencv is only around a third to half of this time. There still seems to be a fair bit of inconsistency out there when it comes to what you should and shouldn't be removing from opencv, but the benefit may not even be a seconds worth of boot time. Of course we do not know this for sure, but this is going on percentages from other results online.
+    * Following on from this we are still investigating the possibility of providing an initial page render with a loading gif so the user can at least have that for the 8 seconds or so it takes for app.py to run its imports, creating the illusion of less down time but of course its not as high on the priority list as others though we do already have the gif made to pass on to you if we do not get around to it
+*Light Pin Mapping
+    * (Josh here) It's not a hardware issue, all LEDs of the same nm are controlled at the same time, probably a quick software fix. 
