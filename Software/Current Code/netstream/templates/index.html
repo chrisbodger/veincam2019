@@ -41,7 +41,7 @@
               onclick="alterConfig($('#attrLightLevel'),'light_level',parseInt($('#attrLightLevel').text())-1,updateTextValue);"
               ><i class="fa fa-minus-square fa-lg"></i></a> 
               <i class="fa fa-lightbulb text-muted"></i>
-              <strong id="attrLightLevel">{{ config_data.light_level|safe }}</strong><sup>/5</sup>
+              <strong id="attrLightLevel">{{ config_data.light_level|safe }}</strong><sup>/3</sup>
             <a href="#" 
               onclick="alterConfig($('#attrLightLevel'),'light_level',parseInt($('#attrLightLevel').text())+1,updateTextValue);"
               ><i class="fa fa-plus-square fa-lg"></i></a>
@@ -149,15 +149,38 @@
                       </span>
                     </li>
 
-                    <li>(Camera must be off for these)</li>
-                </ul> 
+                </ul>
+                <ul class="list-unstyled">
+                      <li>Camera Capture Type:
+                        <div  id="BG-State" class="btn-group btn-group-sm btn-group-toggle" data-toggle="buttons">
+                          <label class="btn {% if config_data.state == 'MJPEG' %}btn-primary{% else %}btn-light{% endif %}" for="attrStatus-MJPEG">
+                            <input type="radio" name="status-MJPEG" id="attrStatus-MJPEG" autocomplete="off" {% if config_data.state == 'MJPEG' %}checked{% endif %}>MJPEG
+                          </label>
+                          <label class="btn {% if config_data.state == 'YUV' %}btn-primary{% else %}btn-light{% endif %}" for="attrStatus-YUV">
+                            <input type="radio" name="status-YUV" id="attrStatus-YUV" autocomplete="off" {% if config_data.state == 'YUV' %}checked{% endif %}>YUV
+                          </label>
+                        </div>
+                      </li>
+                  </ul>
+                  <ul class="list-unstyled">
+                      <li>MJPEG Colour Capture:
+                        <div  id="BG-Color" class="btn-group btn-group-sm btn-group-toggle" data-toggle="buttons">
+                          <label class="btn {% if config_data.color == 'On' %}btn-primary{% else %}btn-light{% endif %}" for="attrColor-On">
+                            <input type="radio" name="color-On" id="attrColor-On" autocomplete="off" {% if config_data.color == 'On' %}checked{% endif %}>Colour
+                          </label>
+                          <label class="btn {% if config_data.color == 'Off' %}btn-primary{% else %}btn-light{% endif %}" for="attrColor-Off">
+                            <input type="radio" name="color-Off" id="attrColor-Off" autocomplete="off" {% if config_data.color == 'Off' %}checked{% endif %}>Black and White
+                          </label>
+                        </div>
+                      </li>
+                  </ul>
                 </div>
               </div>
             </div>
         </div>
       </header>
 
-      <main role="main" class="inner cover">
+      <main role="main" class="image">
         <div id="camState">
             <p>&nbsp;</p>
             <!-- Camera off msg or the video stream will be dynamically placed below -->
@@ -313,7 +336,21 @@
           'roi',
           $(this).children("input").attr('id').split("-").pop(),
           updateBG);
-      });     
+      });
+      $("#BG-Color > .btn").click(function(){
+        console.log( $(this).children("input")[0]["name"], $(this).children("input").attr('id').split("-").pop());
+        alterConfig($(this),
+          'color',
+          $(this).children("input").attr('id').split("-").pop(),
+          updateBG);
+      });
+      $("#BG-State > .btn").click(function(){
+        console.log( $(this).children("input")[0]["name"], $(this).children("input").attr('id').split("-").pop());
+        alterConfig($(this),
+          'state',
+          $(this).children("input").attr('id').split("-").pop(),
+          updateBG);
+      });
 
       // TODO TODO Camera always initially off.  Function to handle UI changes and
       // initiate change of state server-side 
@@ -331,8 +368,8 @@
           $("#camState > p.lead").empty();
           $incvar=$incvar+1;
           // console.log($incvar);
-          $("#camState > p.lead").append( "<img src=\"{{ url_for('video_feed') }}/" + $incvar + "/\">" );
-          $(".mastfoot").css("bottom", "-180px");
+          $("#camState > p.lead").html('<img src="\{{ url_for('video_feed') }}/'+$incvar+'/\" height="90%" width="90%" >');
+          $(".mastfoot").css("bottom", "0px");
         } else { 
           alterConfig($("#attrCamState"), 'camera_state', turnOn, updateCamState);
           $("#camState > p.lead").empty();
@@ -345,7 +382,7 @@
         // Some initial values
         $incvar=0;
 
-        $cam_offtext="The camera is OFF.</br>Tap the switch above to turn it on.</br>...and give it a few seconds to work ;)";
+        $cam_offtext="The camera is OFF.</br>Tap the switch above to turn it on.</br>";
         $("#camState > p.lead").html($cam_offtext);
 
         // Set up key press on app name change input field to trigger change . 

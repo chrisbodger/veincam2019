@@ -107,10 +107,10 @@ class Camera:
     def frames(self, state):
         with picamera.PiCamera(resolution=(self.res_width, self.res_height)) as self.pi_camera:
             time.sleep(1)
+            self.pi_camera.rotation = 180
             if state == "MJPEG":
                 output = StreamOutput()
                 self.pi_camera.start_recording(output, format='mjpeg')
-                self.pi_camera.rotation = 180
                 try:
                     while True:
                         try:
@@ -118,7 +118,10 @@ class Camera:
                             if output.frame is not None:
                                 string_array = np.fromstring(output.frame, np.uint8)
                             if np.shape(string_array)[0] > 0:
-                                img = cv2.imdecode(string_array, cv2.IMREAD_GRAYSCALE)
+                                if (self.settings["color"] == 'On') & (self.settings["state"] == 'MJPEG'):
+                                    img = cv2.imdecode(string_array, cv2.IMREAD_COLOR)
+                                else:
+                                    img = cv2.imdecode(string_array, cv2.IMREAD_GRAYSCALE)
                             self.update_settings()
                             self.image_processing(img)
                             yield cv2.imencode('.jpg', self.img_final)[1].tobytes()
@@ -152,7 +155,14 @@ class Camera:
                           self.roi[roi_index][2]: self.roi[roi_index][3]]
 
             hist_eq = cv2.createCLAHE(clipLimit=6.0, tileGridSize=(6, 6))
-            roi_img = hist_eq.apply(roi_img)
+            if (self.settings["color"] == 'On') & (self.settings["state"] == 'MJPEG'):
+                lab = cv2.cvtColor(roi_img, cv2.COLOR_BGR2LAB)
+                lab_split = cv2.split(lab)
+                lab_split[0] = hist_eq.apply(lab_split[0])
+                lab = cv2.merge(lab_split)
+                roi_img = cv2.cvtColor(lab, cv2.COLOR_LAB2BGR)
+            else:
+                roi_img = hist_eq.apply(roi_img)
 
             self.img_final[self.roi[roi_index][0]: self.roi[roi_index][1],
                            self.roi[roi_index][2]: self.roi[roi_index][3]] = roi_img
