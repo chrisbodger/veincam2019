@@ -84,3 +84,26 @@ of inbuilt post processing on captured images in specific formats
         * This will hopefully be included in current front end soon
 * Some other members will now move on to helping with front end ideas implementation
     * First priority is getting loading GIF working, and making current front end mobile friendly especially with the video output
+    
+## Week Beginning 06/05/19
+* Code was written to have both implementations of image capture available within the same script
+    * This was done to increase options as sometimes the user may not care at all about the frame rate (3 FPS for image capture), seeing as this does provide very slightly better image quality
+    * This was tested via manually changing a new settings cache value named 'state'
+* Research was done into how we can dynamically change the size of the image so it looks good on phones and tablets, but still have limit so it wont become too big on pcs running the window in fullscreen
+* Small app.py cleanup took place, mostly removing now redundant code and general syntax fixes
+
+## Week Beginning 13/05/19
+* Front End was changed so that the image capture technique can now be changed from server without the need to manually change settings file
+* Largest concern from client was the linear artifacts present under many lighting conditions using the MJPEG stream
+    * Initial testing indicated indicated that the most likely cause of these were the IR LEDs and how their refresh rate interact with the camera's frame rate
+    * After a few calculations a new LED refresh rate value was found that was an integer multiple of the camera's frame rate (750Hz) (camera frame rate = 30Hz)
+    * Implementing saw the linear artifacts almost completely disappear
+* For added functionality the ability to change between colour capture (image is converted to LAB space and histogram equalisation is applied only to 'L' channel) was added both to the python side and server side
+    * This drastically reduces the framerate (to about 6-8 FPS) though under certain lighting conditions this makes the veins easier to identify
+    * Note that the camera will need to be reset if a user attempts to select YUV and Colour at the same time in a certain order
+        * Plans were made to fix this in the future
+* Server side scrolling issues were fixed so no scrollbar exists unless it is needed
+* UI scaling of the image is now fixed so the image has a maximum size and also scales to 90% the width and height of its window if it is under this maximum.
+    *This now allows the device to be used with mobile and tablet devices as intended
+* Structure was laid out for code/software documentation (at this stage it will just be for future groups of VeinCam and the client himself)
+    * If time allows for it, this will be turned into a educational resource as well with consultation from education professionals
