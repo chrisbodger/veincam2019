@@ -33,9 +33,7 @@ Final prototypes of the VeinCam enclosure completed, along with some PCB changes
 
 ### Software
 
-Most of the work done on software since the last audit was to improve the frame rate of the received image, this required us to find the processing bottleneck in the system. After hours of testing, debugging and exploring the technical details of the code we improved the frame rate significantly by implementing an alternative image capturing method.
-
-With this major hurdle out of the way we plan to begin improving the image processing algorithm, improving the user front end and cleaning up the Python files.
+This week was spent getting all documenation up to date. Colour functionality added to MJPEG steam, fixed banding effects and scaling to better suit mobile and tablet users 
 
 ### Previous Updates
 Previous project updates can be found in the [Project Updates](Administration/Project/Updates) directory, and will be populated as major progress updates are made. More specific updates regarding each sub-team are available in the sub-team work diaries. These can be found in the [Hardware](/Hardware/HardwareDiary.md) and [Software](/Software/SoftwareDiary.md) folders, as well as team [Decision Logs](/Administration/Project/Decision-Log.md) are other locations for progress notes, should they not be located on this page.
