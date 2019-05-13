@@ -4,7 +4,7 @@ The VeinCam team (Josh, Alex, Patrick and Alex) visted Bonython Primary School o
  
 The kids were very interested, engaged and energetic from the get go. Using the anaology to build a vehicle under our "requirements", the kids got a taste of the Systems Engineering process at ANU and how we go about our design process. We then related these new teachings to the conception, design and refining of VeinCam, before bringing it out for the kids to try. The feedback was overwhelmingly positive. 
 
-The slideshow presented to the students is available [here](https://docs.google.com/presentation/d/13bkJzz0h3RGkjlO-REFogLsxSKhv_3X-6O1F2BfuD20/edit#slide=id.g5915a9c0d0_0_0)
+The slideshow presented to the students is available [here](https://docs.google.com/presentation/d/13bkJzz0h3RGkjlO-REFogLsxSKhv_3X-6O1F2BfuD20/edit?usp=sharing).
 
 Special thanks to Sarah Fletcher from Bonython Primary School for organising this showcase.
 
