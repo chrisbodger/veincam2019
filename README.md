@@ -1,7 +1,7 @@
 
 ![VeinCam](https://github.com/chrisbodger/veincam2019/blob/master/Administration/images/veincam1.png)
 
-VeinCam is an educational tool for vein visualisation that uses. It uses near infrared (nIR) light and a camera to stream a real-time image where veins can be easily seen. It is an open-source, build-it-yourself device so anyone who finds it useful will be able to construct it. There is a how-to guide of what materials to buy, how to put them together and the software to upload to get it all working.
+VeinCam is an educational tool for vein visualisation. It uses near infrared (nIR) light and a camera to stream a real-time image where veins can be easily seen. It is an open-source, build-it-yourself device so anyone who finds it useful will be able to construct it. There is a how-to guide of what materials to buy, how to put them together and the software to upload to get it all working.
 
 This is the repository for the continuation of the VeinCam Project as an ANU Engineering Captone Project in 2019. The repository for the previous work can be found [HERE](https://www.github.com/chrisbodger/veincam). This repository will be used to delineate and document the progress made this semester, in what is to be the next chapter of this exciting project. 
 
@@ -27,11 +27,9 @@ There are 3 goals we wish to achieve this semester:
 A feedback form has been created for the interest of our stakeholders, should they wish to pass on any changes or improvements they believe to be prudent. The form can be found [here](https://goo.gl/forms/8cw5eWdaOY5C1jBo1).
 
 # 3. Project Updates
-### Week 8 - 30/04/2019
+### Week 10 - 13/05/2019
 #### Hardware
-Scrapped VeinCam (Raspi Zero) model due to lack of power for image processing, did not meet framerate and boot time requirements even after Software optimisation. Renamed Veincam Plus to simply just VeinCam.
-
-Client handed kit, assembled full prototype and gave extensive feedback. Available [here](/Administration/Communications/client-feedback-20190428.md) Changes will be made to hardware based on this feedback.
+Final prototypes of the VeinCam enclosure completed, along with some PCB changes to better utilise onboard LEDs. Pricing for enclosure, along with final bill of materials determined. 
 
 ### Software
 

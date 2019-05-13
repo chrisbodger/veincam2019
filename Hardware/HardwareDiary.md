@@ -48,3 +48,7 @@
 
 ## Week Beginning 29/04/2019
 * Resign of the enclosure to address issues with latest rev + shrink IR lens size. 
+
+## Week Beginning 6/5/2019
+* Laser cutting of revised case
+* Assembly instructions written up
