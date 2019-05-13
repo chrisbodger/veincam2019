@@ -1,4 +1,4 @@
-![Bonython1](https://github.com/chrisbodger/veincam2019/blob/master/Administration/Communications/imgs/Bonython5.png)
+![Bonython1](https://github.com/chrisbodger/veincam2019/blob/master/Administration/Communications/imgs/Bonython5.jpg)
 The VeinCam team (Josh, Alex, Patrick and Alex) visted Bonython Primary School on 2/5/2019 to introduce Year 3/4 students to run an introduction to ANU's Systems Engineering, and show-off VeinCam.
  
 The kids were very interested, engaged and energetic from the get go. Using the anaology to build a vehicle under our "requirements", the kids got a taste of the Systems Engineering process at ANU and how we go about our design process. We then related these new teachings to the conception, design and refining of VeinCam, before bringing it out for the kids to try. The feedback was overwhelmingly positive. 
@@ -11,10 +11,10 @@ A few pieces of feedback regarding VeinCam as a potential educational device:
 - The kids got really excited when shown the Raspberry Pi, and explaining all of the things it is capable of. VeinCam has the education potential to introduce students to microprocessors, programming and the development environment. 
 - The veins were not very clear, potentially due to a number of environmental factors, but allowed us to rethink how we handle our image processing and where improvements could be made (noise and stream format were determined to be the biggest hinderances to performance on this occasion). 
 
-![Bonython2](https://github.com/chrisbodger/veincam2019/blob/master/Administration/Communications/imgs/Bonython1.png)
-![Bonython3](https://github.com/chrisbodger/veincam2019/blob/master/Administration/Communications/imgs/Bonython2.png)
-![Bonython4](https://github.com/chrisbodger/veincam2019/blob/master/Administration/Communications/imgs/Bonython3.png)
-![Bonython5](https://github.com/chrisbodger/veincam2019/blob/master/Administration/Communications/imgs/Bonython4.png)
-![Bonython6](https://github.com/chrisbodger/veincam2019/blob/master/Administration/Communications/imgs/Bonython6.png)
-![Bonython7](https://github.com/chrisbodger/veincam2019/blob/master/Administration/Communications/imgs/Bonython7.png)
-![Bonython9](https://github.com/chrisbodger/veincam2019/blob/master/Administration/Communications/imgs/Bonython9.png)
+![Bonython2](https://github.com/chrisbodger/veincam2019/blob/master/Administration/Communications/imgs/Bonython1.jpg)
+![Bonython3](https://github.com/chrisbodger/veincam2019/blob/master/Administration/Communications/imgs/Bonython2.jpg)
+![Bonython4](https://github.com/chrisbodger/veincam2019/blob/master/Administration/Communications/imgs/Bonython3.jpg)
+![Bonython5](https://github.com/chrisbodger/veincam2019/blob/master/Administration/Communications/imgs/Bonython4.jpg)
+![Bonython6](https://github.com/chrisbodger/veincam2019/blob/master/Administration/Communications/imgs/Bonython6.jpg)
+![Bonython7](https://github.com/chrisbodger/veincam2019/blob/master/Administration/Communications/imgs/Bonython7.jpg)
+![Bonython9](https://github.com/chrisbodger/veincam2019/blob/master/Administration/Communications/imgs/Bonython9.jpg)
