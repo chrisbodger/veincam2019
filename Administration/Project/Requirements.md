@@ -16,17 +16,3 @@
 | The device must be reasonably easy to maintain, clean and fix in the event of failure/break/degradation. | Time, minutes | Time taken to be disassembled and reassembled by unknown party, student. | Device is completely modular and can be disassembled within 5 minutes, without the need for tools. Individual parts are easily accessible and two of the three major components are off-the-shelf. | 3 | Yes |
 | The device should display veins in a wide variety of use-cases. | - | Veins clearly visible and defined on wide on differing external parties (e.g. dark-skinned, tattooed, hairy) | The device has not been tested outside of the testing confines of the project in accordance with ANU Ethics guidelines. Within our own testing, we have verified veins are clear and visible on a limited yet varied user sample size. | 5 | Untested, with reservation |
 | The device is manufacturable with  the potential to be put to a commercial market. | Dollars, Australian | Complete Bill of Materials, including cost with potential for >100% markup. | The component designs, Bill of Materials, source of components and manufacturing costs of the device have validated that this is a commercialy manufacturable and viable product. VeinCam's marketability with be the responsibility of the client but has been discussed in the Marketability document [here](https://github.com/chrisbodger/veincam2019/blob/master/Administration/Marketability.md).  | 5 | Yes |
-
-### Requirements of Hardware Team
-1. Redesign device enclosure(s) to accomodate Raspberry Pi A+ and Raspberry Pi Zero.
-2. Design required printed circuit board assemblies to succesfully integrate all required functionality. 
-3. Ensure Design for Manufacturing and Assembly is considered during the above two steps.
-4. Full Bill of Materials ready for client. 
-
-### Requirements of Software Team
-1. Modify current image processing code to be more efficient.
-2. Improve start up time.
-3. Clean up front end user interface.
-4. Research most optimal programming language for image processing (C++ vs Python)
-5. Introduce photo image processing on top of the equalised image to detect veins within relative bounds (Stretch Deliverable)
-
