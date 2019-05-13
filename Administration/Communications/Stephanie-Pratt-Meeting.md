@@ -9,4 +9,5 @@ Today, Alex met with Stephanie Pratt, a member of the first VeinCam team that ra
 **Actionables**
 - Updated System Requirements document.
 - Updated Decision Log.
+- Added comparisons to Audit 3 slides.
 - Updated Handover Document
