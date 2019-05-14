@@ -34,38 +34,6 @@ Sourcing of the components also needs to be taken into consideration, as failure
 - All parts excluding the Raspberry Pi, NoIR camera, and the IR LEDs can be sourced from multiple suppliers at ease and are not a sourcing risk. Whilst the Raspberry Pi and NoIR camera are only available from a single source, they are mass produced items with high stock availability and is only a slightly higher risk item.  
 - The high power IR LEDs on the other hand are only available from one supplier, and there are no other similar components available on the market. At the time of writing there are only 6700 LEDs available globally, and any quantities higher than that have a 5 month lead time. Fortunately only 6000 LEDs are required for a 1000 unit production run, and as such even accounting for overages there is enough supply to satisfy the VeinCams needs. However this could change at any point in time and as such it is an item which has a high risk of causing production delays if there is insufficient supply to meet the production demands.    
 
-**Modularity:**
-- Design considerations
-- DIY kit design
-
-**Price:**
-- Design Considerations
-- Price and cost of repair
-- Comparible products for their cost
-- Competing products.
-
-## Competing Products
-Competing Products (All medical devices, not fit for the educational market due to price point and licensing requirements as stated below):
-
-### AccuVein
-(https://www.accuvein.com/)
-Displays a map of vasculature in real time on the surface of the skin. It comes up as red light where veins come up dark.
-Difficult to find a price anywhere. Requires direct contact with AccuVein.
-
-### VeinViewer
-(https://www.christiemed.com/products/our-technology)
-Displays similar to AccuVein but with green light.
-Need to contact for quote or have a registered medical practitioner check the price at (http://www.balancemedical.com.au/order/)
-
-### Veinsite
-(https://vuetekscientific.com/veinsite-vein-finder/)
-Portable, hands-free, big camera that sits on top of the head and covers the eyes with an IR lens. 
-Similarly to AccuVein. Price unavailabe.
-
-### UMTEC Portable Vein Detector
-(https://www.amazon.com/Infrared-UMTEC-Portable-Illumination-Visualization/dp/B01NA0D98U)
-Shines IR light on the skin, looks quite difficult to see the vein still.
-Roughly $1000.
 
 
 
