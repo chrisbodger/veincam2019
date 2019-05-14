@@ -1,13 +1,25 @@
-Commercialisatity document + in audit slide
-- Checks off serval curriculum criteria for schooling, on guidance of Sarah
-- Pulled apart to teach kids/intro to raspi
-- WHAT CURRICULUM DOES IT REALLY COVER? What is the true market clientele? IT class be interested?
-- Show what systems interconnect, career possiblities
+**Durability:**
+- Acrilic Strength
+- PCB Design consideration
+- Comparable market products and their durability
+- Data Corruption Potential 
 
+**Safety:**
+- Design Considerations (e.g. cant get fingers caught)
+- Voltage Considerations
+- Data Corruption Potential 
+- Comparable market products and their safety
 
-To be determined prior to Audit 3, following discussion with client regarding intellectual property.
+**Modularity:**
+- Design considerations
+- DIY kit design
 
-The commercialisation capabilities of our final product will be determined using a comparison matrix of available products, as well as identifying the products ease of manufacturing, cost and kit capabilities.
+**Price:**
+- Design Considerations
+- Price and cost of repair
+- Comparible products for their cost
+- Competing products.
+
 
 Competing Products (All medical devices, not fit for the educational market due to price point and licensing requirements as stated below):
 
