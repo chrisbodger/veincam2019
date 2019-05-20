@@ -267,7 +267,7 @@ Wire Wire Line
 Wire Wire Line
 	8800 2350 10450 2350
 Text Notes 7350 1300 0    50   ~ 0
-2->1 850nm\n3->4 940nm
+2->1 940nm\n3->4 850nm
 Text Notes 3750 1550 0    100  ~ 0
 Status LEDs
 $Comp
@@ -370,16 +370,16 @@ Wire Wire Line
 	1050 2150 650  2150
 Wire Wire Line
 	2650 3350 3050 3350
-Text Label 650  2150 0    50   ~ 0
-LED_940
 Text Label 3050 3350 2    50   ~ 0
+LED_940
+Text Label 650  2150 0    50   ~ 0
 LED_850
-Text Label 9600 2950 0    50   ~ 0
+Text Label 8200 2950 0    50   ~ 0
 LED_850
 Wire Wire Line
 	8600 2950 8200 2950
 Connection ~ 8600 2950
-Text Label 8200 2950 0    50   ~ 0
+Text Label 9600 2950 0    50   ~ 0
 LED_940
 Wire Wire Line
 	10450 2350 10450 2750
