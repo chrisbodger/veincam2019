@@ -73,7 +73,7 @@ def alter_light_level(val):
         [pipin.hardware_PWM(pin, 750, duty_cycle) for pin in activeLEDs5V]
 
         if val != settings_cache['light_level']:
-            update_settings_cache('light_level',val)
+            update_settings_cache('light_level', val)
     elif val == 0:
         all_led_off()
         if val != settings_cache['light_level']:
