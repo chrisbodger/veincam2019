@@ -3,7 +3,7 @@
 ## Version History
 | Version | Description | Audit Version |
 | --- | --- | --- |
-| 2.0 | Mid-Term Document | Audit 2 |
+| 3.0 | Final Document | Audit 3 |
 
 ## Table of Contents
 * [Project Vision](#project-vision)
@@ -36,15 +36,15 @@ VeinCam is a device that enables the visualisation of the superficial veinous sy
 
 After recieving incredibly positive feedback during the final presentation of VeinCam, from both educational and medical professional's alike, the decision was made to continue the VeinCam project into 2019. The vision for this next phase of development is to produce a Bill of Materials and finalised software to handover to the primary client. The quality of the Bill of Materials and software should be of a standard where the primary client can create commercially-viable DIY kits that remains affordable and convenient to market to educators, for construction and development within a classroom environment. As such, our goal of this project is to create a product that is professional and of a commercial standard.  
 
-Dependent on software performance testing to be performed towards the end of the project, two iterations of the VeinCam kit are planned: VeinCam and VeinCam Plus.
-
 ### Value Proposition
 Our VeinCam device will help students better understand the human body by augmenting visualisation of upper limb veins. It will provide students with an interactive expereience and fun way to learn about the venous sites of the body. At an educational level, this has never been done before as commerically available products with similar capabilites are far beyond a price point that would be considered by educators. Our value proposition is to provide this experience and funcionality at a fraction of the cost. 
 
 ### Project Scope
-This project aims to continue on the achievements of the team from last semester with the aim of polishing the device so that it is of a standard where it can marketable. This will include the optimization of the device's physical hardware and extending its software capabilities. To achieve this, we will explore the options of migrating to a new hardware platform and rewriting aspects of the current image processing code.
+This project aims to continue on the achievements of the team from last semester with the aim of polishing the device so that it is of a standard where it can marketable. This will include the optimization of the device's physical hardware and extending its software capabilities. To achieve this, we will explore the options of migrating to a new hardware platform and rewriting aspects of the current image processing code. 
 
-Two chassis (VeinCam and VeinCam Plus) will be designed and refined over several iterations, comparing off-the-shelf and custom made components using quotes from online stores and potential chassis manufacturers. The primary goal of this project is to supply the client with a complete bill of materials, costing and supplier sheet to then use for the order and manufacturing of educational kits.
+The VeinCam will be designed and refined over several iterations, comparing off-the-shelf and custom made components using quotes from online stores and potential chassis manufacturers. The primary goal of this project is to supply the client with a complete bill of materials, costing and supplier sheet to then use for the order and manufacturing of educational kits.
+
+Whilst two chassis, VeinCam (based on the Raspberry Pi Zero platform) and VeinCam Plus (based off the Raspberry Pi A+), were within the initial scope of this project, it was determined that a smaller VeinCam on the Pi Zero was redundant, as it was not cost-effective nor was powerful for our intended purposes. 
 
 ### Product Comparison
 The following table contains an overview of how the newer VeinCam will differentiate from the current iteration.
@@ -52,17 +52,16 @@ The following table contains an overview of how the newer VeinCam will different
 #### Feature Summary
 | Current VeinCam Prototype (v2.3)| VeinCam 2019 | Future Development/Stretch Goals |
 | :---: | :---: | :---: |
-| One Version Design (VeinCam) | Two Versions (VeinCam, VeinCam Plus) |  |
-| Raspberry Pi 3 B+ | Raspberry Pi Zero W (VeinCam), Raspberry Pi A+ (VeinCam Plus) |  |
+| Raspberry Pi 3 B+ | Raspberry Pi A+ |  |
 | IR Illumination (840nm) | IR Illumination (840-940nm, adjustable) | |
 | Basic LED Array | Custom LED PCB | |
 | IR PiCamera | IR PiCamera |  |
 | HTML/CSS User Interface | JavaScript User Interface | Smartphone App Development |
 | Startup Time < 1 min | Startup Time < 30 seconds | |
-| Wireless, Portable and Battery Powered | Wireless, Portable and Battery Powered  | |
+| Wireless, Portable and Battery Powered | Wireless, Portable, optional battery  | |
 | Large 3D Printed Enclousre | Smaller Off-The-Shelf/Custom Design Enclosure(s) | |
 | Manual Camera Setting (Brightness, Contrast etc.) Adjustment | Automatic Camera Setting Adjustment and Framing | |
-| Basic Image Processing | Vision-Based Image Processing | Vein Detection |
+| Basic Image Processing | Vision-Based Image Processing | Vein Object Detection |
 | Open Source | Polished, Manufacturable Design | Commercial Educational Kit  |
 
 #### VeinCam v2.3 Features
@@ -71,7 +70,7 @@ Currently, the VeinCam utilises similar hardware to the Venenfinder project (Ras
 #### VeinCam 2019 Core Features
 - Smaller, more polished chassis using either off the shelf components for easy manufacturing of kit, or custom manufactured casing.
 - Image Processing with more aggressive equalization, automatic image pixel brightness adjustment to differentiate and illuminate the arm from the background, vein detection and optimization.
-- Two Versions, VeinCam and VeinCam Plus 9R
+
 
 ---
 
