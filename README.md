@@ -29,6 +29,9 @@ A feedback form has been created for the interest of our stakeholders, should th
 # 3. Project Updates
 ### Week 11 - 22/05/2019
 
+### Poster Showcase
+The team presented VeinCam to a large science and engineering audience at the Project Showcase on the 20/5/19. A summary of the presentation and feedback is available [here](Administration/Communications/Poster-Presentation-Summary.md).
+
 ### School Visit
 The team showcased VeinCam to Gungahlin College and gained insightful feedback into how VeinCam could be used in a secondary school environment. A summary of the visit is available [here](Administration/Communications/Gungahlin-College-Visit-210519.md).
 
