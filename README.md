@@ -27,16 +27,20 @@ There are 3 goals we wish to achieve this semester:
 A feedback form has been created for the interest of our stakeholders, should they wish to pass on any changes or improvements they believe to be prudent. The form can be found [here](https://goo.gl/forms/8cw5eWdaOY5C1jBo1).
 
 # 3. Project Updates
-### Week 10 - 13/05/2019
+### Week 11 - 22/05/2019
+
+### School Visit
+The team showcased VeinCam to Gungahlin College and gained insightful feedback into how VeinCam could be used in a secondary school environment. A summary of the visit is available [here](Administration/Communications/Gungahlin-College-Visit-210519.md).
+
 #### Hardware
 Final prototypes of the VeinCam enclosure completed, along with some PCB changes to better utilise onboard LEDs. Pricing for enclosure, along with final bill of materials determined. 
 
 ### Software
 
-This week was spent getting all documenation up to date. Colour functionality added to MJPEG steam, fixed banding effects and scaling to better suit mobile and tablet users 
+This week was spent getting all documenation up to date. Colour functionality added to MJPEG steam, fixed banding effects and scaling to better suit mobile and tablet users. 
 
 ### Previous Updates
-Previous project updates can be found in the [Project Updates](Administration/Project/Updates) directory, and will be populated as major progress updates are made. More specific updates regarding each sub-team are available in the sub-team work diaries. These can be found in the [Hardware](/Hardware/HardwareDiary.md) and [Software](/Software/SoftwareDiary.md) folders, as well as team [Decision Logs](/Administration/Project/Decision-Log.md) are other locations for progress notes, should they not be located on this page.
+More specific updates regarding each sub-team are available in the sub-team work diaries. These can be found in the [Hardware](/Hardware/HardwareDiary.md) and [Software](/Software/SoftwareDiary.md) folders, as well as team [Decision Logs](/Administration/Project/Decision-Log.md) are other locations for progress notes, should they not be located on this page.
 
 # 4. Concept of Operations
 Our Concept of Operations has been signed off by all parties involved. 
