@@ -26,7 +26,7 @@
 #### Changing the user parameters 
 
 * To change the base URL: 
-    - Change the `baseurl` variable in app.py
+    - Change the `10.0.0.5` variable in the autohotspot launch script
 
 * To change the wifi name:
     - ssh into the pi 
