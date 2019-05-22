@@ -1,3 +1,5 @@
+## Gungahlin College Visit - 21/5/2019
+
 The VeinCam team (Josh, Alex, Patrick and Alex) visted Gungahlin College on 2/5/2019 for a formal presentation on ANU's Systems Engineering processes and how it related to our designing of VeinCam. We presented to the Year 10 SMART Program and a mixture of the Year 11 and 12 Mechatronics cohort.
 
 Being secondary school students at 3:30pm, the energy of the students was rather low but they didn't stop most of the class from actively engaging in the design activity. There were little questions from the audience regarding the specifics of VeinCam, but a snap poll by show of hands revealed that most of the class would take VeinCam or a similar project on as their Year 12 major Mechatronics program.
