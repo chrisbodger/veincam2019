@@ -1,4 +1,4 @@
-![Bonython1](https://github.com/chrisbodger/veincam2019/blob/master/Administration/Communications/imgs/Bonython5.jpg)
+## Bonython Primary School Visit - 2/5/2019
 
 The VeinCam team (Josh, Alex, Patrick and Alex) visted Bonython Primary School on 2/5/2019 to introduce Year 3/4 students to run an introduction to ANU's Systems Engineering, and show-off VeinCam.
  
@@ -14,10 +14,4 @@ A few pieces of feedback regarding VeinCam as a potential educational device:
 - The kids got really excited when shown the Raspberry Pi, and explaining all of the things it is capable of. VeinCam has the education potential to introduce students to microprocessors, programming and the development environment. 
 - The veins were not very clear, potentially due to a number of environmental factors, but allowed us to rethink how we handle our image processing and where improvements could be made (noise and stream format were determined to be the biggest hinderances to performance on this occasion). 
 
-![Bonython2](https://github.com/chrisbodger/veincam2019/blob/master/Administration/Communications/imgs/Bonython1.jpg)
-![Bonython3](https://github.com/chrisbodger/veincam2019/blob/master/Administration/Communications/imgs/Bonython2.jpg)
-![Bonython4](https://github.com/chrisbodger/veincam2019/blob/master/Administration/Communications/imgs/Bonython3.jpg)
-![Bonython5](https://github.com/chrisbodger/veincam2019/blob/master/Administration/Communications/imgs/Bonython4.jpg)
-![Bonython6](https://github.com/chrisbodger/veincam2019/blob/master/Administration/Communications/imgs/Bonython6.jpg)
-![Bonython7](https://github.com/chrisbodger/veincam2019/blob/master/Administration/Communications/imgs/Bonython7.jpg)
 ![Bonython9](https://github.com/chrisbodger/veincam2019/blob/master/Administration/Communications/imgs/Bonython9.jpg)
