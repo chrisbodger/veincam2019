@@ -107,3 +107,8 @@ of inbuilt post processing on captured images in specific formats
     *This now allows the device to be used with mobile and tablet devices as intended
 * Structure was laid out for code/software documentation (at this stage it will just be for future groups of VeinCam and the client himself)
     * If time allows for it, this will be turned into a educational resource as well with consultation from education professionals
+    
+## Week Beginning 20/05/19
+* General app.py cleanup for readability and removing any redundancies
+* Created Software README for functionality descriptions
+* Updated Handover Document with major updates done over course of project and any other necessary information
