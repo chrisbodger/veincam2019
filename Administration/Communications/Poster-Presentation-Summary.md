@@ -15,3 +15,5 @@ Other patrons pointed out to us that being a cheap, infrared camera, that it cou
 - Assisting in household chores where detecting hot spots would be useful. 
 
 Overall, the VeinCam team's presentation was a success and provided an engaging, interactive experience for its audience.
+
+![VeinCampres](https://github.com/chrisbodger/veincam2019/blob/master/img/veincam3.jpg)
