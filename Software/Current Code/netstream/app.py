@@ -62,7 +62,7 @@ LEDPinMap = {"850nm": {18},
 pipin = io.pi()
 
 def all_led_off():
-    [pipin.write(pin,0) for pin in LEDPinMap['Both']]
+    [pipin.write(pin, 0) for pin in LEDPinMap['Both']]
 
 
 '''App Altering Functions'''
@@ -82,7 +82,7 @@ def alter_light_level(val):
         pass
 
 
-def alter_cam_setting(attr,val):
+def alter_cam_setting(attr, val):
     if val in ["850nm", "Both", "940nm"]:
         all_led_off()
         update_settings_cache(attr, val)
@@ -114,7 +114,7 @@ def shutdown_server():
 def shut_server():
     all_led_off()
     shutdown_server()
-    return json.dumps({'status':'Server shutting down...'})
+    return json.dumps({'status': 'Server shutting down...'})
 
 
 '''Settings Allter Route'''
@@ -124,7 +124,7 @@ def alter_config():
     value = request.form['value']
     print('>attribute ', attribute, '| value ', value)
     alter_cam_setting(attribute, value)
-    return json.dumps({'status':'OK'})
+    return json.dumps({'status': 'OK'})
 
 
 '''Statistics Refresh Route'''
