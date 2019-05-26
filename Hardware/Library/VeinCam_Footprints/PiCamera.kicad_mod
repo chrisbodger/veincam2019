@@ -1,4 +1,4 @@
-(module PiCamera (layer F.Cu) (tedit 5C907FB0)
+(module PiCamera (layer F.Cu) (tedit 5CE9E270)
   (fp_text reference TP8 (at -10 -13) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -20,7 +20,6 @@
   (pad "" np_thru_hole circle (at 11 2.5) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -10 2.5) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 11 -10) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
-  (pad "" np_thru_hole circle (at -10 -10) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   (model "C:/Users/Josh Johnson/Dropbox/ENGN4221/VeinCam2019/Hardware/Library/VeinCam.3dshapes/RasPi_Camera.step"
     (offset (xyz 0.5 -2.5 -1.2))
     (scale (xyz 1 1 1))

@@ -3,7 +3,7 @@
 * **Ben's Files** contains all HW related documents from the client Ben. 
 * **Datasheets** contains any datasheets related to the project. 
 * **Library** Contains relavent KiCad library files for the boards. 
-* **ToCutPrint** Contains DXF's and STL's for the manufacture of various mechanical components. 
+* **Production Outputs** Are the files Ben can use to produce VeinCam.
 * **VeinCamHat** Contains the KiCad files for the RPi 3A+ model of the VeinCam. Also contains a render of the PCA. 
 * **Estimated Financials** Contains the BOM and other cost related calculations for manufacturing and sale of the VeinCam. 
 * **ReadmeHW** Is the document you are reading right now.
