@@ -54,9 +54,3 @@ There is still room for improvement in the mechanical design, as whilst the meth
 Currently the VeinCam also requires an external battery pack, which adds extra volume and makes it harder to hold onto. Whilst a version of the VeinCam with an integrated battery was partially designed, it was abandoned due to the added complexity of a fully integrated solution. An area for improvement may be taking a middle ground through figuring out a way to mount an external battery pack to the VeinCam, which will make it into one unit whilst not having the complexity and cost of a fully integrated solution.   
 
 
-### 2.3. Governance Summary and Repository Documentation
-
-
-## 3. Future of the Project
-
-
